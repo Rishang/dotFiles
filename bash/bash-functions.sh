@@ -8,9 +8,11 @@ function update-docker-pull() {
 # update all pip packages
 function update-all-pip-packages() {
     pip install -U pip
-    echo "This may create errors: Do you still want to continue"
-	read
-	pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
+    echo "This may create errors: Do you still want to continue (y/n)"
+	read ans
+	if [[ $ans == "y" ]];then
+		pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
+	fi
 }
 
 # open multiple chrome tabs
