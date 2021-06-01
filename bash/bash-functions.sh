@@ -1,5 +1,12 @@
+#!/usr/bin/bash
+
 # update all docker images
 function update_docker_pull() {
+    echo "This may create errors: Do you still want to continue (Y/N)"
+	read ans
+    if ! [[ $ans == "y" || $ans == "Y" ]];then
+        exit
+    fi
 	for image in  $(docker images --format '{{.Repository}} {{.Tag}} {{.Digest}}' | grep -v "none" | awk '{print $1":"$2}');do
 		 docker pull $image;
 	done
@@ -12,8 +19,11 @@ function update_all_pip_packages() {
         $pip=pip3
     fi
     $pip install -U pip
-    echo "This may create errors: Do you still want to continue"
-	read
+    echo "This may create errors: Do you still want to continue (y/n):"
+	read ans
+    if ! [[ $ans == "y" || $ans == "Y" ]];then
+        exit
+    fi
 	$pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
 }
 

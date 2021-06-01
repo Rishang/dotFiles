@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # clear
 alias clr='clear'
 
