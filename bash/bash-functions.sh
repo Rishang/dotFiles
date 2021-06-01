@@ -1,18 +1,20 @@
 # update all docker images
-function update-docker-pull() {
+function update_docker_pull() {
 	for image in  $(docker images --format '{{.Repository}} {{.Tag}} {{.Digest}}' | grep -v "none" | awk '{print $1":"$2}');do
 		 docker pull $image;
 	done
 }
 
 # update all pip packages
-function update-all-pip-packages() {
-    pip install -U pip
-    echo "This may create errors: Do you still want to continue (y/n)"
-	read ans
-	if [[ $ans == "y" ]];then
-		pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
-	fi
+function update_all_pip_packages() {
+    pip="pip"
+    if ! [[ `which $pip` ]];then
+        $pip=pip3
+    fi
+    $pip install -U pip
+    echo "This may create errors: Do you still want to continue"
+	read
+	$pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
 }
 
 # open multiple chrome tabs
