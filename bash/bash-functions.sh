@@ -2,7 +2,7 @@
 
 # update all docker images
 function update_docker_pull() {
-    echo "This may create errors: Do you still want to continue (Y/N)"
+    echo "This may create errors: Do you still want to continue (y/n):"
 	read ans
     if ! [[ $ans == "y" || $ans == "Y" ]];then
         exit
