@@ -35,3 +35,10 @@ alias getup='echo GetUp Every 30-min ;tmux new-session -d -s getUP ~/.takeBreak/
 # the fuck
 # requires : pip3 install thefuck
 eval "$(thefuck --alias)"
+
+# cd
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
