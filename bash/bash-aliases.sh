@@ -12,6 +12,9 @@ alias update='sudo apt update'
 # apt upgrade
 alias upgrade='sudo apt update;sudo apt full-upgrade --fix-policy --fix-broken -y'
 
+# autoremove
+alias autoremove='sudo apt autoremove'
+
 # terminal theme
 alias ttheme='echo -e "go to http://mayccoll.github.io/Gogh/ \n press any key to continue"; read ;bash -c  "$(wget -qO- https://git.io/vQgMr)"'
 
