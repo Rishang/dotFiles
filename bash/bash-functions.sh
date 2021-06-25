@@ -62,3 +62,45 @@ function open-multi-tabs() (
     fi
     echo
 )
+
+
+function caffine () {
+    
+    l_file_name="caffine"
+    l_path="~/.config"
+    l_file="$l_path/$l_file_name"
+    
+    eval "touch $l_file || ( mkdir $l_path ; touch $l_file )"
+
+    case $1 in
+
+        "on" | "On" | "ON")
+
+            curr_delay=$(gsettings get org.gnome.desktop.session idle-delay) # uint32 ${seconds}
+            echo "curr_delay $curr_delay" > $l_file
+            eval "gsettings set org.gnome.desktop.session idle-delay 0"
+            echo "Black-Screen delay set to never"
+
+        ;;
+
+        "off" | "Off" | "OFF")
+            old_delay=$(cat $l_file | grep "curr_delay" | awk '{print $3}' )
+            eval "gsettings set org.gnome.desktop.session idle-delay $old_delay"
+            echo "Black-Screen delay set to $old_delay sec"
+        ;;
+
+        "show")
+            gsettings get org.gnome.desktop.session idle-delay
+        ;;
+
+
+        *)
+            # --help
+            echo -e "caffine | Turn on/off Black-Screen timer  \n"
+            echo "on   - Turn off Black-Screen timer"
+            echo "off  - Set timer of Black-Screen timer to previous timer"
+            echo "show - shows current Black-Screen timer"
+            echo "help - help"
+        ;;
+    esac
+}
