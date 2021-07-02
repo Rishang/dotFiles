@@ -10,7 +10,7 @@ alias pull_my_config='cd ~/.my-config;git pull origin master;cd -'
 alias update='sudo apt update'
 
 # apt upgrade
-alias upgrade='sudo apt update;sudo apt full-upgrade --fix-policy --fix-broken -y;([[ $(which snap) ]] && snap refresh)'
+alias upgrade='sudo apt update;sudo apt full-upgrade --fix-policy --fix-broken -y;([[ $(which snap) ]] && sudo snap refresh)'
 
 # autoremove
 alias autoremove='sudo apt autoremove'
