@@ -26,8 +26,8 @@ function update_all_pip_packages() {
     $pip install -U pip
     echo "This may create errors: Do you still want to continue (y/n):"
 	_ask_continue
-	
-	$pip list -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
+
+	$pip list --user -o | sed -e '/\(Package.*\)\|\(----\)/d' | awk '{print $1}' > /tmp/pipr.txt && pip install -U -r /tmp/pipr.txt
 }
 
 # open multiple chrome tabs
@@ -68,10 +68,10 @@ function open-multi-tabs() (
 
 # caffine | Turn on/off Black-Screen timer
 function caffine () {
-    
+
     l_path=~/.config
     l_file=$l_path/caffine
-    
+
     eval "touch $l_file || ( mkdir $l_path ; touch $l_file )"
 
     case $1 in
