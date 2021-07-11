@@ -37,10 +37,6 @@ alias dangling-rmi-docker='docker rmi `docker images --filter dangling=true -q`'
 # requires: https://github.com/Rishang/scripts/tree/master/takeBreak
 alias getup='echo GetUp Every 30-min ;tmux new-session -d -s getUP ~/.takeBreak/getUp.sh'
 
-# the fuck
-# requires : pip3 install thefuck
-eval "$(thefuck --alias)"
-
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
