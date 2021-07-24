@@ -15,9 +15,6 @@ alias upgrade='sudo apt update;sudo apt full-upgrade --fix-policy --fix-broken -
 # autoremove
 alias autoremove='sudo apt autoremove'
 
-# terminal theme
-alias ttheme='echo -e "go to http://mayccoll.github.io/Gogh/ \n press any key to continue"; read ;bash -c  "$(wget -qO- https://git.io/vQgMr)"'
-
 # IDA start
 # https://hex-rays.com/ida-free/#download
 alias ida='sudo /opt/idafree-*/./ida64'
