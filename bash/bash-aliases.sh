@@ -19,6 +19,9 @@ alias autoremove='sudo apt autoremove'
 # https://hex-rays.com/ida-free/#download
 alias ida='sudo /opt/idafree-*/./ida64'
 
+# colorful cat
+alias bcat="batcat"
+
 # terminal color
 alias term-color='x-www-browser "https://mayccoll.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
 
