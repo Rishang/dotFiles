@@ -1,0 +1,37 @@
+[global_config]
+  geometry_hinting = True
+  extra_styling = False
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#8536d5"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger, TerminatorThemes
+  title_use_system_font = False
+  title_font = SauceCodePro Nerd Font Medium 9
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#161719"
+    cursor_color = "#d0d0d0"
+    font = GoMono Nerd Font Mono 12
+    foreground_color = "#c5c8c6"
+    palette = "#003b2b:#fd5ff1:#87c38a:#ffd7b1:#85befd:#b9b6fc:#85befd:#e0e0e0:#8fffc6:#fd5ff1:#94fa36:#f5ffa8:#96cbfe:#b9b6fc:#85befd:#e0e0e0"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 83:137
+      maximised = False
+      fullscreen = False
+      size = 1295, 739
+      title = /bin/bash
+      last_active_term = e0729b46-c808-4ae1-a118-34fb1367ec13
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = e0729b46-c808-4ae1-a118-34fb1367ec13
+[plugins]
