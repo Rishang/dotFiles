@@ -107,3 +107,10 @@ function caffine () {
         ;;
     esac
 }
+
+# python venv
+function venv-pip {
+    envname=${1:-"env"}
+	python -m venv $envname
+	source $PWD/env/bin/activate
+}
