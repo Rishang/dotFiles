@@ -112,5 +112,5 @@ function caffine () {
 function venv-pip {
     envname=${1:-"env"}
 	python -m venv $envname
-	source $PWD/env/bin/activate
+	source $PWD/$envname/bin/activate
 }
