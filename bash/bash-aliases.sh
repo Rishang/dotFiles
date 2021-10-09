@@ -37,6 +37,10 @@ alias dangling-rmi-docker='docker rmi `docker images --filter dangling=true -q`'
 # requires: https://github.com/Rishang/scripts/tree/master/takeBreak
 alias getup='echo GetUp Every 30-min ;tmux new-session -d -s getUP ~/.takeBreak/getUp.sh'
 
+# batcat view
+alias batview="fzf --preview 'batcat --color=always --style=numbers --line-range=:500 {}'"
+
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
