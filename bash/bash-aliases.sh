@@ -40,6 +40,8 @@ alias getup='echo GetUp Every 30-min ;tmux new-session -d -s getUP ~/.takeBreak/
 # batcat view
 alias batview="fzf --preview 'batcat --color=always --style=numbers --line-range=:500 {}'"
 
+# sys monitor
+alias btop="bpytop"
 
 # cd
 alias ..="cd .."
