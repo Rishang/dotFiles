@@ -30,7 +30,7 @@ function _tmux_conf {
 function _vim_conf {
     
     # VIM UI and plugins
-    _get_repo https://github.com/amix/vimrc.git ~/.vim_runtime && return 0
+    _get_repo https://github.com/amix/vimrc.git ~/.vim_runtime
     cd ~/.vim_runtime;sh ~/.vim_runtime/install_awesome_vimrc.sh; cd -
     
     # https://github.com/VundleVim/Vundle.vim
@@ -68,6 +68,6 @@ function _oh_zsh {
 # ------ exec -----------
 
 # _tmux_conf
-# _vim_conf
+_vim_conf
 # _oh_zsh
 # _nerd_fonts
