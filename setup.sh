@@ -29,8 +29,19 @@ function _tmux_conf {
 # https://github.com/amix/vimrc
 function _vim_conf {
     
+    # VIM UI and plugins
     _get_repo https://github.com/amix/vimrc.git ~/.vim_runtime && return 0
     cd ~/.vim_runtime;sh ~/.vim_runtime/install_awesome_vimrc.sh; cd -
+    
+    # https://github.com/VundleVim/Vundle.vim
+    _get_repo https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+    # Vim AutoComplete YouCompleteMe 
+    # not needed if using vscode daily
+    # _get_repo https://github.com/ycm-core/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe && return 0
+    # cd ~/.vim/bundle/YouCompleteMe/; ./install.py --all; cd -
+    
+    cat './templates/vim/.vimrc' > ~/.vim_runtime/my_configs.vim
 }
 
 # https://github.com/ryanoasis/nerd-fonts
