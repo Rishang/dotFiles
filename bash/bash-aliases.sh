@@ -27,7 +27,7 @@ alias ida='sudo /opt/idafree-*/./ida64'
 # colorful cat
 alias bcat="batcat"
 
-# terminal color
+# terminal color for gnome-terminal
 alias term-color='x-www-browser "https://mayccoll.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
 
 # xdm
