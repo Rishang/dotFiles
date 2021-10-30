@@ -68,6 +68,6 @@ function _oh_zsh {
 # ------ exec -----------
 
 # _tmux_conf
-_vim_conf
+# _vim_conf
 # _oh_zsh
 # _nerd_fonts
