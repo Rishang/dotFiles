@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+# ls
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -lah'
+
 # clear
 alias clr='clear'
 
