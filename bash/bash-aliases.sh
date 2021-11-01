@@ -8,9 +8,6 @@ alias ll='ls -lah'
 # clear
 alias clr='clear'
 
-# pull_my_config
-alias pull_my_config='cd ~/.my-config;git pull origin master;cd -'
-
 # apt update
 alias update='sudo apt update'
 
