@@ -3,6 +3,7 @@
 set -x
 
 # ------ utils -----------
+cwd=$PWD
 
 # pull git repo
 function _get_repo {
@@ -41,7 +42,7 @@ function _vim_conf {
     # _get_repo https://github.com/ycm-core/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe && return 0
     # cd ~/.vim/bundle/YouCompleteMe/; ./install.py --all; cd -
     
-    cat './templates/vim/.vimrc' > ~/.vim_runtime/my_configs.vim
+    cat "$cwd/templates/vim/.vimrc" > ~/.vim_runtime/my_configs.vim
 }
 
 # https://github.com/ryanoasis/nerd-fonts
@@ -49,7 +50,7 @@ function _nerd_fonts {
     
     [[ -e "$HOME/.local/share/fonts/NerdFonts" ]] && return 0
     _get_repo https://github.com/ryanoasis/nerd-fonts.git /tmp/nerd_fonts
-    cd /tmp/nerd_fonts; bash install.sh; cd -
+    bash /tmp/nerd_fonts/install.sh;
 }
 
 # https://github.com/ohmyzsh/ohmyzsh
@@ -64,6 +65,11 @@ function _oh_zsh {
     _get_repo https://github.com/romkatv/powerlevel10k.git "${zsh_theme_path}/powerlevel10k"
 }
 
+# terminator
+function _terminator_conf {
+    [[ $(which terminator) ]] || return 1
+    cp $cwd/templates/terminator/config ~/.config/terminator/config
+}
 
 # ------ exec -----------
 
@@ -71,3 +77,4 @@ function _oh_zsh {
 # _vim_conf
 # _oh_zsh
 # _nerd_fonts
+# _terminator_conf
