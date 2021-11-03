@@ -48,7 +48,6 @@ packages:
     - masscan
     - ripgrep
     - exa
-    - dust
     - fzf
     - fd-find # easy find tool
 
