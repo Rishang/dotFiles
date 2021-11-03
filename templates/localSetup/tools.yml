@@ -82,4 +82,5 @@ pip:
     - loguru
     - aiohttp
     - sqlmodel
+    - selenium
     
