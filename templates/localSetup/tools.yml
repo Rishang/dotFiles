@@ -46,7 +46,12 @@ packages:
     - htop
     - sqlmap
     - masscan
-    - 
+    - ripgrep
+    - exa
+    - dust
+    - fzf
+    - fd-find # easy find tool
+
   yum:
     - httpd
 
@@ -67,6 +72,7 @@ go:
     - github.com/ffuf/ffuf@latest
     - github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
     - github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+    - github.com/wagoodman/dive@latest
 
 pip:
   install:
@@ -84,3 +90,6 @@ pip:
     - sqlmodel
     - selenium
     - pipreqs
+    
+    # cli tools
+    - tldr   # easy man pages cli tool
