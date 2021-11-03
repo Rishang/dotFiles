@@ -65,9 +65,21 @@ go:
     - github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
     - github.com/OJ/gobuster/v3@latest
     - github.com/ffuf/ffuf@latest
+    - github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+    - github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 
 pip:
   install:
     - django
     - fastapi[standard]
     - pandas
+    - bs4
+    - scapy
+    - typer
+    - typer-cli
+    - click
+    - pymongo
+    - loguru
+    - aiohttp
+    - sqlmodel
+    
