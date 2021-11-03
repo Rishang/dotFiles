@@ -83,4 +83,4 @@ pip:
     - aiohttp
     - sqlmodel
     - selenium
-    
+    - pipreqs
