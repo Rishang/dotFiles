@@ -74,20 +74,21 @@ go:
 
 pip:
   install:
-    - django
-    - fastapi[standard]
-    - pandas
-    - bs4
-    - scapy
-    - typer
-    - typer-cli
-    - click
-    - pymongo
-    - loguru
-    - aiohttp
-    - sqlmodel
-    - selenium
-    - pipreqs
+    local:
+      - django
+      - fastapi[standard]
+      - pandas
+      - bs4
+      - scapy
+      - typer
+      - typer-cli
+      - click
+      - pymongo
+      - loguru
+      - aiohttp
+      - sqlmodel
+      - selenium
+      - pipreqs
     
-    # cli tools
-    - tldr   # easy man pages cli tool
+      # cli tools
+      - tldr   # easy man pages cli tool
