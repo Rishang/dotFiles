@@ -71,6 +71,8 @@ go:
     - github.com/ffuf/ffuf@latest
     - github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
     - github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+    - github.com/lc/gau@latest
+    - github.com/zricethezav/gitleaks/v7
 
 pip:
   install:
