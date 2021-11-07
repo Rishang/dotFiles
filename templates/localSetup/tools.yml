@@ -73,6 +73,7 @@ go:
     - github.com/projectdiscovery/dnsx/cmd/dnsx@latest
     - github.com/lc/gau@latest
     - github.com/zricethezav/gitleaks/v7
+    - dw1.io/go-dork@latest
 
 pip:
   install:
