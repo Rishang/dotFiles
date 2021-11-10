@@ -22,7 +22,7 @@ alias autoremove='sudo apt autoremove'
 alias ida='sudo /opt/idafree-*/./ida64'
 
 # colorful cat
-alias bcat="batcat"
+alias bcat="bat"
 
 # terminal color for gnome-terminal
 alias term-color='x-www-browser "https://mayccoll.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
@@ -40,7 +40,7 @@ alias dangling-rmi-docker='docker rmi `docker images --filter dangling=true -q`'
 alias getup='echo GetUp Every 30-min ;tmux new-session -d -s getUP ~/.takeBreak/getUp.sh'
 
 # batcat view
-alias batview="fzf --preview 'batcat --color=always --style=numbers --line-range=:500 {}'"
+alias batview="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
 # sys monitor
 alias btop="bpytop"
