@@ -50,7 +50,7 @@ packages:
     - exa
     - fzf
     - fd-find # easy find tool
-
+    - httpie  # o curl
   yum:
     - httpd
 
