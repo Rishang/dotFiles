@@ -48,6 +48,7 @@ packages:
     - masscan
     - ripgrep
     - exa
+    - cargo
     - fzf
     - fd-find # easy find tool
     - httpie  # o curl
