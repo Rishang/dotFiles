@@ -92,7 +92,7 @@ pip:
       - sqlmodel
       - selenium
       - pipreqs
-    
+      - black     # python beautifier
       # cli tools
       - tldr   # easy man pages cli tool
 
