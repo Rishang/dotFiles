@@ -49,9 +49,10 @@ packages:
     - ripgrep
     - exa
     - cargo
+    - bpytop  # cool htop
     - fzf
     - fd-find # easy find tool
-    - httpie  # o curl
+    - httpie  # cool curl
   yum:
     - httpd
 
