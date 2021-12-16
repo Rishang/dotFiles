@@ -8,9 +8,6 @@ alias ll='ls -lah'
 # clear
 alias clr='clear'
 
-# tldr for short short command examples
-alias shortman="tldr"
-
 # apt update
 alias update='sudo apt update'
 
