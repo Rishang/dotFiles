@@ -22,6 +22,7 @@ function _get_repo {
 # https://github.com/gpakosz/.tmux
 function _tmux_conf {
 
+    mkdir -p ~/.config/terminator
     _get_repo https://github.com/gpakosz/.tmux.git ~/.oh-my-tmux && return 0
     [[ -e  ~/.tmux.conf ]] && mv ~/.tmux.conf ~/.tmux.conf.bak
     ln -s -f ~/.oh-my-tmux/.tmux.conf ~/.tmux.conf
