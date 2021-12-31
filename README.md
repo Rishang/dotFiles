@@ -7,4 +7,4 @@ clone at HOME path as `~/.my-config`
 
 include to bashrc || zshrc
 
-`source ~/.my-config/bash/main.sh`
+`source ~/.my-config/rcfiles/main.sh`
