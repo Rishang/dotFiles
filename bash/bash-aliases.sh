@@ -8,15 +8,6 @@ alias ll='ls -lah'
 # clear
 alias clr='clear'
 
-# apt update
-alias update='sudo apt update'
-
-# apt upgrade
-alias upgrade='sudo apt update;sudo apt full-upgrade --fix-policy --fix-broken -y;([[ $(which snap) ]] && sudo snap refresh)'
-
-# autoremove
-alias autoremove='sudo apt autoremove'
-
 # IDA start
 # https://hex-rays.com/ida-free/#download
 alias ida='sudo /opt/idafree-*/./ida64'

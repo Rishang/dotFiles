@@ -17,4 +17,4 @@ export LC_ALL=en_US.UTF-8
 export GOPATH="$HOME/go"
 
 # paths
-export PATH=$HOME/.local/bin:$GOPATH/bin:$HOME/.pulumi/bin:$PATH
+export PATH=~/.local/bin:~/linuxbrew/.linuxbrew/bin:$GOPATH/bin:~/.pulumi/bin:$PATH
