@@ -20,12 +20,16 @@ function update_docker_pull() {
 # update all git dirs
 function update_all_git() {    
     for i in `ls $PWD`;do
-        cd ${PWD}/${i}
-        if [[ -e ".git" ]];then
-            echo $i
-            git pull origin
+        if [[ -d $i ]];
+        then
+            cd "${PWD}/${i}"
+            if [[ -e ".git" ]];
+            then
+                echo "$i"
+                git pull origin
+            fi
+            cd -
         fi
-        cd -
     done
 }
 
