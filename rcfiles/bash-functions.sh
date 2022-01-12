@@ -18,7 +18,7 @@ function update_docker_pull() {
 }
 
 # update all git dirs
-function update_all_git() {    
+function update_all_git() {
     for i in `ls $PWD`;do
         if [[ -d $i ]];
         then
@@ -129,4 +129,10 @@ function venv-pip {
     envname=${1:-".pipenv"}
 	python -m venv $envname
 	source $PWD/$envname/bin/activate
+}
+
+function temp-clone {
+    tmp_dir=/tmp/`echo "$1" | cut -d '/' -f5 | cut -d '.' -f1`
+    git clone $1 $tmp_dir
+    code $tmp_dir
 }
