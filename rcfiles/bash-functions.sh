@@ -138,6 +138,6 @@ function temp-clone {
 }
 
 function temp-notebook {
-    tmp_dir=/tmp/`pwgen | cat`
+    tmp_dir=/tmp/notebook_`pwgen | cat`
     [[ `which  jupyter-notebook` ]]  && (mkdir $tmp_dir; jupyter-notebook $tmp_dir)
 }

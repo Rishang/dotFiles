@@ -18,9 +18,10 @@ case $_distro_name in
 esac
 
 
+[ -d /home/linuxbrew/.linuxbrew ] && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+
 source ~/.my-config/rcfiles/bash-aliases.sh
 source ~/.my-config/rcfiles/bash-functions.sh
 source ~/.my-config/rcfiles/completions.sh
 source ~/.my-config/rcfiles/vars.sh
-
-[ -d /home/linuxbrew/.linuxbrew ] && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
