@@ -133,8 +133,7 @@ function venv-pip {
 
 function temp-clone {
     tmp_dir=/tmp/`echo "$1" | cut -d '/' -f5 | cut -d '.' -f1`
-    git clone $1 $tmp_dir
-    [[ `which code` ]] && code $tmp_dir
+    git clone $1 $tmp_dir && ([[ `which code` ]] && code $tmp_dir)
 }
 
 function temp-notebook {
