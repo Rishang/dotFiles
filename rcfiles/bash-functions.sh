@@ -19,17 +19,11 @@ function update_docker_pull() {
 
 # update all git dirs
 function update_all_git() {
-    for i in `ls $PWD`;do
-        if [[ -d $i ]];
-        then
-            cd "${PWD}/${i}"
-            if [[ -e ".git" ]];
-            then
-                echo "$i"
-                git pull origin
-            fi
-            cd -
-        fi
+    for i in `find . -type d -name ".git" | grep  -oE ".+[^\.git]"`;do
+        cd ${i}
+        echo "$i"
+        git pull origin
+        cd -
     done
 }
 
