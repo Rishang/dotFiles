@@ -18,3 +18,6 @@ export GOPATH="$HOME/go"
 
 # paths
 export PATH=~/.local/bin:~/linuxbrew/.linuxbrew/bin:$GOPATH/bin:~/.pulumi/bin:$PATH
+
+# Docker buildkit
+export DOCKER_BUILDKIT=1
