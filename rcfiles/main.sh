@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 
 source ~/.my-config/rcfiles/exports.sh
+source ~/.my-config/rcfiles/bash-aliases.sh
+source ~/.my-config/rcfiles/bash-functions.sh
+source ~/.my-config/rcfiles/completions.sh
+source ~/.my-config/rcfiles/vars.sh
 
 _distro_name=$(cat /etc/os-release | grep "ID_LIKE" | cut -d "=" -f 2)
 case $_distro_name in
@@ -19,9 +23,3 @@ esac
 
 
 [ -d /home/linuxbrew/.linuxbrew ] && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-
-source ~/.my-config/rcfiles/bash-aliases.sh
-source ~/.my-config/rcfiles/bash-functions.sh
-source ~/.my-config/rcfiles/completions.sh
-source ~/.my-config/rcfiles/vars.sh

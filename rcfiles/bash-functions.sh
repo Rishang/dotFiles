@@ -7,8 +7,13 @@ function _ask_continue {
     fi
 }
 
+function __upgrade {
+    [[ `command -v snap` ]] && sudo snap refresh
+    [[ `command -v flatpak` ]] && sudo flatpak upgrade
+}
+
 # update all docker images
-function update_docker_pull() {
+function __update_docker_pull() {
     echo "This may create errors: Do you still want to continue (y/n):"
 	_ask_continue
 
@@ -28,7 +33,7 @@ function update_all_git() {
 }
 
 # update all pip packages
-function update_all_pip_packages() {
+function __update_all_pip() {
     pip="pip"
     if ! [[ `which $pip` ]];then
         $pip=pip3
