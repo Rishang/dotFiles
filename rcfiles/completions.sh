@@ -17,7 +17,7 @@ then
 fi
 
 
-[[ `type zoxide` ]] && eval "$(zoxide init zsh)"
+[[ `type zoxide` ]] && eval "$(zoxide init $THIS_SHELL)"
 [[ `type aws` ]] && complete -C `which aws_completer` aws
 [[ `type gf` ]] && complete -W "$(gf -list)" gf
 [[ `type terraform` ]] && complete -o nospace -C `which terraform` terraform
