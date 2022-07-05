@@ -8,6 +8,7 @@ function _ask_continue {
 }
 
 function __upgrade {
+    [[ `command -v brew` ]] && brew upgrade
     [[ `command -v snap` ]] && sudo snap refresh
     [[ `command -v flatpak` ]] && sudo flatpak upgrade
 }
