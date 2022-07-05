@@ -22,3 +22,5 @@ fi
 [[ `type gf` ]] && complete -W "$(gf -list)" gf
 [[ `type terraform` ]] && complete -o nospace -C `which terraform` terraform
 [[ `type kubectl` ]] && source <(kubectl completion $THIS_SHELL)
+[[ `type helm` ]] && source <(helm completion $THIS_SHELL)
+
