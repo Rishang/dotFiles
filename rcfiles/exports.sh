@@ -17,7 +17,7 @@ export LC_ALL=en_US.UTF-8
 export GOPATH="$HOME/go"
 
 # paths
-export PATH="~/.local/bin:$GOPATH/bin:~/.pulumi/bin:~/.cargo/bin$PATH:$HOME/linuxbrew/.linuxbrew/bin"
+export PATH="$HOME/.local/bin:$GOPATH/bin:$HOME/.pulumi/bin:$HOME/.cargo/bin$PATH:$HOME/linuxbrew/.linuxbrew/bin"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # Docker buildkit

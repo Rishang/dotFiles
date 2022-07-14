@@ -2,6 +2,9 @@
 
 THIS_SHELL=$(ps -p $$ | awk '{print $4}' | tail -n 1)
 
+autoload -U +X bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+
 if type brew &>/dev/null
 then
   HOMEBREW_PREFIX="$(brew --prefix)"
@@ -17,10 +20,9 @@ then
 fi
 
 
-[[ `type zoxide` ]] && eval "$(zoxide init $THIS_SHELL)"
-[[ `type aws` ]] && complete -C `which aws_completer` aws
-[[ `type gf` ]] && complete -W "$(gf -list)" gf
-[[ `type terraform` ]] && complete -o nospace -C `which terraform` terraform
-[[ `type kubectl` ]] && source <(kubectl completion $THIS_SHELL)
-[[ `type helm` ]] && source <(helm completion $THIS_SHELL)
-
+[[ $commands[zoxide] ]] && eval "$(zoxide init $THIS_SHELL)"
+[[ $commands[aws] ]] && complete -C `which aws_completer` aws
+[[ $commands[gf] ]] && complete -W "$(gf -list)" gf
+[[ $commands[terraform] ]] && complete -o nospace -C `which terraform` terraform
+[[ $commands[kubectl] ]] && source <(kubectl completion $THIS_SHELL)
+[[ $commands[helm] ]] && source <(helm completion $THIS_SHELL)
