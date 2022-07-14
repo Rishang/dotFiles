@@ -2,8 +2,10 @@
 
 THIS_SHELL=$(ps -p $$ | awk '{print $4}' | tail -n 1)
 
-autoload -U +X bashcompinit && bashcompinit
-autoload -Uz compinit && compinit
+if type autoload &>/dev/null; then
+  autoload -U +X bashcompinit && bashcompinit
+  autoload -Uz compinit && compinit
+fi
 
 if type brew &>/dev/null
 then
@@ -26,3 +28,5 @@ fi
 [[ $commands[terraform] ]] && complete -o nospace -C `which terraform` terraform
 [[ $commands[kubectl] ]] && source <(kubectl completion $THIS_SHELL)
 [[ $commands[helm] ]] && source <(helm completion $THIS_SHELL)
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
