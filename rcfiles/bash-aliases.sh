@@ -36,6 +36,9 @@ alias batview="fzf --preview 'bat --color=always --style=numbers --line-range=:5
 # sys monitor
 alias btop="bpytop"
 
+# kubeclt
+alias kc="kubectl"
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
