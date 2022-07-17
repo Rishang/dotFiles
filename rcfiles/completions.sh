@@ -7,7 +7,7 @@ if type autoload &>/dev/null; then
   autoload -Uz compinit && compinit
 fi
 
-if type brew &>/dev/null
+if [[ $commands[brew] ]];
 then
   HOMEBREW_PREFIX="$(brew --prefix)"
   if [[ -r "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]
