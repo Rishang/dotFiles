@@ -1,4 +1,4 @@
-# linux brew
+#!/bin/bash
 
 THIS_SHELL=$(ps -p $$ | awk '{print $4}' | tail -n 1)
 
