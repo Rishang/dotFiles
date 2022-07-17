@@ -39,6 +39,9 @@ alias btop="bpytop"
 # kubeclt
 alias kc="kubectl"
 
+# https://github.com/Rishang/install-release
+alias ir=install-release
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
