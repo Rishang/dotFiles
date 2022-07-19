@@ -140,3 +140,9 @@ function temp-notebook {
     tmp_dir=/tmp/notebook_`pwgen | cat`
     [[ `which  jupyter-notebook` ]]  && (mkdir $tmp_dir; jupyter-notebook $tmp_dir)
 }
+
+function kubens {
+    ns=`kubectl get ns -ojson | jq -r '.items[].metadata.name' | fzf -e --ansi --prompt="Select namespace: "`
+    kubectl config set-context --current --namespace $ns
+    echo "Switched to namespace: \"$ns\"."
+}
