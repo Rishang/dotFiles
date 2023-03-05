@@ -68,21 +68,21 @@
   "https://github.com/kubeshop/testkube#testkube": {
     "url": "https://github.com/kubeshop/testkube",
     "name": "testkube",
-    "tag_name": "v1.9.14",
+    "tag_name": "v1.9.22",
     "prerelease": false,
-    "published_at": "2023-02-17T13:33:19Z",
+    "published_at": "2023-03-01T16:10:21Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v1.9.14/testkube_1.9.14_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v1.9.22/testkube_1.9.22_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-02-17T13:33:25Z",
-        "download_count": 49,
-        "id": 96067706,
-        "name": "testkube_1.9.14_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOFsQgPM4FueB6",
-        "size": 14494605,
+        "created_at": "2023-03-01T16:10:22Z",
+        "download_count": 7,
+        "id": 97624550,
+        "name": "testkube_1.9.22_Linux_x86_64.tar.gz",
+        "node_id": "RA_kwDOFsQgPM4F0aHm",
+        "size": 14502180,
         "state": "uploaded",
-        "updated_at": "2023-02-17T13:33:26Z"
+        "updated_at": "2023-03-01T16:10:23Z"
       }
     ],
     "hold_update": false
@@ -178,21 +178,21 @@
   "https://github.com/cloudflare/cloudflared#cloudflared": {
     "url": "https://github.com/cloudflare/cloudflared",
     "name": "cloudflared",
-    "tag_name": "2023.2.1",
+    "tag_name": "2023.2.2",
     "prerelease": false,
-    "published_at": "2023-02-03T12:19:54Z",
+    "published_at": "2023-02-27T19:38:31Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cloudflare/cloudflared/releases/download/2023.2.1/cloudflared-fips-linux-amd64",
+        "browser_download_url": "https://github.com/cloudflare/cloudflared/releases/download/2023.2.2/cloudflared-fips-linux-amd64",
         "content_type": "application/octet-stream",
-        "created_at": "2023-02-03T12:24:19Z",
-        "download_count": 125,
-        "id": 94172167,
+        "created_at": "2023-02-27T19:42:06Z",
+        "download_count": 9,
+        "id": 97349780,
         "name": "cloudflared-fips-linux-amd64",
-        "node_id": "RA_kwDOBl6rlM4FnPQH",
-        "size": 41624416,
+        "node_id": "RA_kwDOBl6rlM4FzXCU",
+        "size": 41536288,
         "state": "uploaded",
-        "updated_at": "2023-02-03T12:24:21Z"
+        "updated_at": "2023-02-27T19:42:10Z"
       }
     ],
     "hold_update": false
@@ -200,21 +200,21 @@
   "https://github.com/cilium/cilium-cli#cilium": {
     "url": "https://github.com/cilium/cilium-cli",
     "name": "cilium-cli",
-    "tag_name": "v0.12.13",
+    "tag_name": "v0.13.0",
     "prerelease": false,
-    "published_at": "2023-02-15T17:32:51Z",
+    "published_at": "2023-02-24T11:09:39Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.12.13/cilium-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.13.0/cilium-linux-amd64.tar.gz",
         "content_type": "application/octet-stream",
-        "created_at": "2023-02-15T17:26:45Z",
-        "download_count": 1149,
-        "id": 95795971,
+        "created_at": "2023-02-24T11:05:53Z",
+        "download_count": 2692,
+        "id": 96929155,
         "name": "cilium-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOE0nmLs4FtbsD",
-        "size": 27992572,
+        "node_id": "RA_kwDOE0nmLs4FxwWD",
+        "size": 28008797,
         "state": "uploaded",
-        "updated_at": "2023-02-15T17:26:47Z"
+        "updated_at": "2023-02-24T11:05:55Z"
       }
     ],
     "hold_update": false
@@ -222,21 +222,21 @@
   "https://github.com/okteto/okteto#okteto": {
     "url": "https://github.com/okteto/okteto",
     "name": "okteto",
-    "tag_name": "2.12.1",
+    "tag_name": "2.13.0",
     "prerelease": false,
-    "published_at": "2023-02-10T08:13:50Z",
+    "published_at": "2023-03-01T10:43:29Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/okteto/okteto/releases/download/2.12.1/okteto-Linux-x86_64",
+        "browser_download_url": "https://github.com/okteto/okteto/releases/download/2.13.0/okteto-Linux-x86_64",
         "content_type": "application/octet-stream",
-        "created_at": "2023-02-10T08:13:47Z",
-        "download_count": 103,
-        "id": 95054876,
+        "created_at": "2023-03-01T10:43:25Z",
+        "download_count": 25,
+        "id": 97586760,
         "name": "okteto-Linux-x86_64",
-        "node_id": "RA_kwDOCJLt4c4Fqmwc",
-        "size": 64475136,
+        "node_id": "RA_kwDOCJLt4c4F0Q5I",
+        "size": 69767168,
         "state": "uploaded",
-        "updated_at": "2023-02-10T08:13:49Z"
+        "updated_at": "2023-03-01T10:43:28Z"
       }
     ],
     "hold_update": false
@@ -310,21 +310,21 @@
   "https://github.com/sharkdp/fd#fd": {
     "url": "https://github.com/sharkdp/fd",
     "name": "fd",
-    "tag_name": "v8.6.0",
+    "tag_name": "v8.7.0",
     "prerelease": false,
-    "published_at": "2022-12-09T07:02:26Z",
+    "published_at": "2023-02-24T08:25:03Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/sharkdp/fd/releases/download/v8.6.0/fd-v8.6.0-x86_64-unknown-linux-gnu.tar.gz",
+        "browser_download_url": "https://github.com/sharkdp/fd/releases/download/v8.7.0/fd-v8.7.0-x86_64-unknown-linux-gnu.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2022-12-09T07:07:48Z",
-        "download_count": 7041,
-        "id": 87561427,
-        "name": "fd-v8.6.0-x86_64-unknown-linux-gnu.tar.gz",
-        "node_id": "RA_kwDOBWllys4FOBTT",
-        "size": 1418833,
+        "created_at": "2023-02-24T08:33:02Z",
+        "download_count": 431,
+        "id": 96912798,
+        "name": "fd-v8.7.0-x86_64-unknown-linux-gnu.tar.gz",
+        "node_id": "RA_kwDOBWllys4FxsWe",
+        "size": 1423902,
         "state": "uploaded",
-        "updated_at": "2022-12-09T07:07:49Z"
+        "updated_at": "2023-02-24T08:33:03Z"
       }
     ],
     "hold_update": false
@@ -486,21 +486,21 @@
   "https://github.com/aquasecurity/trivy#trivy": {
     "url": "https://github.com/aquasecurity/trivy",
     "name": "trivy",
-    "tag_name": "v0.37.3",
+    "tag_name": "v0.38.0",
     "prerelease": false,
-    "published_at": "2023-02-14T12:28:27Z",
+    "published_at": "2023-03-01T11:44:39Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/aquasecurity/trivy/releases/download/v0.37.3/trivy_0.37.3_Linux-64bit.tar.gz",
+        "browser_download_url": "https://github.com/aquasecurity/trivy/releases/download/v0.38.0/trivy_0.38.0_Linux-64bit.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-02-14T12:28:29Z",
-        "download_count": 31009,
-        "id": 95594406,
-        "name": "trivy_0.37.3_Linux-64bit.tar.gz",
-        "node_id": "RA_kwDOCsUTCM4Fsqem",
-        "size": 49315813,
+        "created_at": "2023-03-01T11:44:43Z",
+        "download_count": 4679,
+        "id": 97593499,
+        "name": "trivy_0.38.0_Linux-64bit.tar.gz",
+        "node_id": "RA_kwDOCsUTCM4F0Sib",
+        "size": 50272635,
         "state": "uploaded",
-        "updated_at": "2023-02-14T12:28:32Z"
+        "updated_at": "2023-03-01T11:44:45Z"
       }
     ],
     "hold_update": false
@@ -662,21 +662,21 @@
   "https://github.com/pocketbase/pocketbase#pocketbase": {
     "url": "https://github.com/pocketbase/pocketbase",
     "name": "pocketbase",
-    "tag_name": "v0.12.3",
+    "tag_name": "v0.13.0",
     "prerelease": false,
-    "published_at": "2023-02-12T10:57:26Z",
+    "published_at": "2023-02-26T09:28:09Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.12.3/pocketbase_0.12.3_linux_amd64.zip",
+        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.13.0/pocketbase_0.13.0_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2023-02-12T10:56:02Z",
-        "download_count": 1403,
-        "id": 95321403,
-        "name": "pocketbase_0.12.3_linux_amd64.zip",
-        "node_id": "RA_kwDOHm9BJM4Frn07",
-        "size": 15407944,
+        "created_at": "2023-02-26T09:27:06Z",
+        "download_count": 610,
+        "id": 97169770,
+        "name": "pocketbase_0.13.0_linux_amd64.zip",
+        "node_id": "RA_kwDOHm9BJM4FyrFq",
+        "size": 15476030,
         "state": "uploaded",
-        "updated_at": "2023-02-12T10:56:03Z"
+        "updated_at": "2023-02-26T09:27:07Z"
       }
     ],
     "hold_update": false
@@ -728,21 +728,21 @@
   "https://github.com/FairwindsOps/goldilocks#goldilocks": {
     "url": "https://github.com/FairwindsOps/goldilocks",
     "name": "goldilocks",
-    "tag_name": "v4.6.4",
+    "tag_name": "v4.7.0",
     "prerelease": false,
-    "published_at": "2023-02-09T19:18:31Z",
+    "published_at": "2023-02-28T21:52:33Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/FairwindsOps/goldilocks/releases/download/v4.6.4/goldilocks_4.6.4_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/FairwindsOps/goldilocks/releases/download/v4.7.0/goldilocks_4.7.0_linux_amd64.tar.gz",
         "content_type": "application/octet-stream",
-        "created_at": "2023-02-09T19:18:31Z",
-        "download_count": 6,
-        "id": 94984490,
-        "name": "goldilocks_4.6.4_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOCvAlSc4FqVkq",
-        "size": 12515596,
+        "created_at": "2023-02-28T21:52:34Z",
+        "download_count": 2,
+        "id": 97508558,
+        "name": "goldilocks_4.7.0_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOCvAlSc4Fz9zO",
+        "size": 12517222,
         "state": "uploaded",
-        "updated_at": "2023-02-09T19:18:32Z"
+        "updated_at": "2023-02-28T21:52:35Z"
       }
     ],
     "hold_update": false
@@ -816,21 +816,21 @@
   "https://github.com/nektos/act#act": {
     "url": "https://github.com/nektos/act",
     "name": "act",
-    "tag_name": "v0.2.42",
+    "tag_name": "v0.2.43",
     "prerelease": false,
-    "published_at": "2023-02-02T01:04:02Z",
+    "published_at": "2023-03-01T02:38:58Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.42/act_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.43/act_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-02-02T01:04:05Z",
-        "download_count": 4827,
-        "id": 93958554,
+        "created_at": "2023-03-01T02:39:00Z",
+        "download_count": 430,
+        "id": 97537916,
         "name": "act_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOCcSpD84FmbGa",
-        "size": 5584371,
+        "node_id": "RA_kwDOCcSpD84F0E98",
+        "size": 5585714,
         "state": "uploaded",
-        "updated_at": "2023-02-02T01:04:06Z"
+        "updated_at": "2023-03-01T02:39:01Z"
       }
     ],
     "hold_update": false
@@ -860,21 +860,21 @@
   "https://github.com/projectdiscovery/subfinder#subfinder": {
     "url": "https://github.com/projectdiscovery/subfinder",
     "name": "subfinder",
-    "tag_name": "v2.5.5",
+    "tag_name": "v2.5.6",
     "prerelease": false,
-    "published_at": "2022-11-17T14:52:04Z",
+    "published_at": "2023-02-22T15:21:08Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.5.5/subfinder_2.5.5_linux_amd64.zip",
+        "browser_download_url": "https://github.com/projectdiscovery/subfinder/releases/download/v2.5.6/subfinder_2.5.6_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2022-11-17T14:57:15Z",
-        "download_count": 13592,
-        "id": 84976691,
-        "name": "subfinder_2.5.5_linux_amd64.zip",
-        "node_id": "RA_kwDOB5nLHs4FEKQz",
-        "size": 4354683,
+        "created_at": "2023-02-22T15:22:44Z",
+        "download_count": 7,
+        "id": 96678186,
+        "name": "subfinder_2.5.6_linux_amd64.zip",
+        "node_id": "RA_kwDOB5nLHs4FwzEq",
+        "size": 4209717,
         "state": "uploaded",
-        "updated_at": "2022-11-17T14:57:15Z"
+        "updated_at": "2023-02-22T15:22:45Z"
       }
     ],
     "hold_update": false
@@ -882,21 +882,21 @@
   "https://github.com/projectdiscovery/naabu#naabu": {
     "url": "https://github.com/projectdiscovery/naabu",
     "name": "naabu",
-    "tag_name": "v2.1.1",
+    "tag_name": "v2.1.2",
     "prerelease": false,
-    "published_at": "2022-10-25T21:49:53Z",
+    "published_at": "2023-02-25T20:54:24Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/projectdiscovery/naabu/releases/download/v2.1.1/naabu_2.1.1_linux_amd64.zip",
+        "browser_download_url": "https://github.com/projectdiscovery/naabu/releases/download/v2.1.2/naabu_2.1.2_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2022-10-25T21:51:48Z",
-        "download_count": 4976,
-        "id": 82254792,
-        "name": "naabu_2.1.1_linux_amd64.zip",
-        "node_id": "RA_kwDODga2Jc4E5xvI",
-        "size": 7822343,
+        "created_at": "2023-02-25T20:55:42Z",
+        "download_count": 258,
+        "id": 97113177,
+        "name": "naabu_2.1.2_linux_amd64.zip",
+        "node_id": "RA_kwDODga2Jc4FydRZ",
+        "size": 8191892,
         "state": "uploaded",
-        "updated_at": "2022-10-25T21:51:49Z"
+        "updated_at": "2023-02-25T20:55:43Z"
       }
     ],
     "hold_update": false
@@ -1036,21 +1036,21 @@
   "https://github.com/denoland/deno#deno": {
     "url": "https://github.com/denoland/deno",
     "name": "deno",
-    "tag_name": "v1.30.3",
+    "tag_name": "v1.31.1",
     "prerelease": false,
-    "published_at": "2023-02-07T01:57:38Z",
+    "published_at": "2023-02-25T03:31:15Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.30.3/deno-x86_64-unknown-linux-gnu.zip",
+        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.31.1/deno-x86_64-unknown-linux-gnu.zip",
         "content_type": "application/zip",
-        "created_at": "2023-02-07T01:54:13Z",
-        "download_count": 72915,
-        "id": 94575129,
+        "created_at": "2023-02-25T02:57:22Z",
+        "download_count": 28162,
+        "id": 97034139,
         "name": "deno-x86_64-unknown-linux-gnu.zip",
-        "node_id": "RA_kwDOB_QrUM4FoxoZ",
-        "size": 39014147,
+        "node_id": "RA_kwDOB_QrUM4FyJ-b",
+        "size": 40347427,
         "state": "uploaded",
-        "updated_at": "2023-02-07T01:54:14Z"
+        "updated_at": "2023-02-25T02:57:25Z"
       }
     ],
     "hold_update": false
@@ -1124,21 +1124,65 @@
   "https://github.com/mikefarah/yq#yq": {
     "url": "https://github.com/mikefarah/yq",
     "name": "yq",
-    "tag_name": "v4.31.1",
+    "tag_name": "v4.31.2",
     "prerelease": false,
-    "published_at": "2023-02-20T05:36:08Z",
+    "published_at": "2023-03-02T00:20:02Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.31.1/yq_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.31.2/yq_linux_amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-02-20T05:29:15Z",
-        "download_count": 805,
-        "id": 96351937,
+        "created_at": "2023-03-02T00:12:56Z",
+        "download_count": 112,
+        "id": 97683770,
         "name": "yq_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOApOQGc4FvjbB",
-        "size": 6789754,
+        "node_id": "RA_kwDOApOQGc4F0ok6",
+        "size": 6802757,
         "state": "uploaded",
-        "updated_at": "2023-02-20T05:29:17Z"
+        "updated_at": "2023-03-02T00:12:59Z"
+      }
+    ],
+    "hold_update": false
+  },
+  "https://github.com/tomnomnom/gron#gron": {
+    "url": "https://github.com/tomnomnom/gron",
+    "name": "gron",
+    "tag_name": "v0.7.1",
+    "prerelease": false,
+    "published_at": "2022-04-13T14:09:29Z",
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-linux-amd64-0.7.1.tgz",
+        "content_type": "application/x-gtar",
+        "created_at": "2022-04-13T14:09:24Z",
+        "download_count": 12413,
+        "id": 62461393,
+        "name": "gron-linux-amd64-0.7.1.tgz",
+        "node_id": "RA_kwDOAFdYP84DuRXR",
+        "size": 4052281,
+        "state": "uploaded",
+        "updated_at": "2022-04-13T14:09:26Z"
+      }
+    ],
+    "hold_update": false
+  },
+  "https://github.com/junegunn/fzf#fzf": {
+    "url": "https://github.com/junegunn/fzf",
+    "name": "fzf",
+    "tag_name": "0.38.0",
+    "prerelease": false,
+    "published_at": "2023-02-15T14:27:26Z",
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/junegunn/fzf/releases/download/0.38.0/fzf-0.38.0-linux_amd64.tar.gz",
+        "content_type": "application/gzip",
+        "created_at": "2023-02-15T14:27:34Z",
+        "download_count": 27775,
+        "id": 95773318,
+        "name": "fzf-0.38.0-linux_amd64.tar.gz",
+        "node_id": "RA_kwDOANKv9s4FtWKG",
+        "size": 1346791,
+        "state": "uploaded",
+        "updated_at": "2023-02-15T14:27:36Z"
       }
     ],
     "hold_update": false
