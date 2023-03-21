@@ -45,6 +45,8 @@ alias ir=install-release
 # https://github.com/filebrowser/filebrowser
 alias filebrowser="filebrowser --database ~/.config/filebrowser.db"
 
+alias myip="curl https://ipconfig.io"
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
