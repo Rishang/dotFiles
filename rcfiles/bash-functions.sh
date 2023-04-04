@@ -13,8 +13,9 @@ function __upgrade {
     [[ `command -v flatpak` ]] && sudo flatpak upgrade
 }
 
-# update all docker images
 function __update_docker_pull() {
+    # update all docker images
+    
     echo "This may create errors: Do you still want to continue (y/n):"
 	_ask_continue
 
@@ -23,14 +24,32 @@ function __update_docker_pull() {
 	done
 }
 
-# update all git dirs
-function update_all_git() {
+function __update_all_git() {
+    # update all git dirs
+    
     for i in `find . -type d -name ".git" | grep  -oE ".+[^\.git]"`;do
         cd ${i}
         echo "$i"
         git pull origin
         cd -
     done
+}
+
+function getup() {
+    # takeBreak alias
+    # requires: tmux
+    # requires: https://github.com/Rishang/scripts/tree/master/takeBreak
+
+    arg=$1
+    session_name=getUP
+    if [[ $arg == "start" ]];then
+        echo GetUp Every 30-min ;tmux new-session -d -s $session_name ~/.takeBreak/getUp.py
+    elif [[ $arg == "stop" ]];then
+        tmux kill-session -t $session_name
+    else
+        echo "use: getup start -> to start session"
+        echo "use: getup stop  -> to stop  session"
+    fi
 }
 
 # update all pip packages
@@ -82,8 +101,8 @@ function open-multi-tabs() (
     echo
 )
 
-# caffine | Turn on/off Black-Screen timer
 function caffine () {
+    # caffine | Turn on/off Black-Screen timer
 
     l_path=~/.config
     l_file=$l_path/caffine
@@ -124,8 +143,8 @@ function caffine () {
     esac
 }
 
-# python venv
 function venv-pip {
+    # python venv
     envname=${1:-".venv"}
 	python -m venv $envname
 	source $PWD/$envname/bin/activate
