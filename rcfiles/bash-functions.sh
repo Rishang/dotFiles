@@ -173,6 +173,30 @@ function __update_awscli() {
     fi
 }
 
+function __cleanup() {
+    py_pattern='(__pycache__)|\.(ipynb_checkpoints|mypy_cache|pyc)'
+    ignore='-E ".vscode" -E ".local"'
+    
+    function __module() {
+        x=$(echo "fd $ignore --hidden \"$1\"" | bash)
+        echo $x
+        if [[ $1 == "rm" ]];then
+            echo -e "\nThis may create errors: Do you still want to continue (y/n):"
+            _ask_continue
+            echo $x | xargs rm -rf
+        fi
+    }
+
+    if [[ $1 == "rm" ]];then
+        __module $py_pattern
+    elif [[ $1 == "show" ]];then
+        echo "fd $ignore --hidden \"$py_pattern\"" | bash
+    else 
+        echo "use: cleanup rm   -> to remove files"
+        echo "use: cleanup show -> to show files"
+    fi
+}
+
 # function kubens {
 #     ns=`kubectl get ns -ojson | jq -r '.items[].metadata.name' | fzf -e --ansi --prompt="Select namespace: "`
 #     kubectl config set-context --current --namespace $ns
