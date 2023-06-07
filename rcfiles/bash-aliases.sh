@@ -16,7 +16,10 @@ alias ida='sudo /opt/idafree-*/./ida64'
 alias bcat="bat"
 
 # terminal color for gnome-terminal
-alias term-color='x-www-browser "https://gogh-co.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
+alias term-color='xdg-open "https://gogh-co.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
+
+# alias grep to grep --color=auto
+alias grep="grep --color=auto"
 
 # xdm
 # requires: https://xtremedownloadmanager.com/
