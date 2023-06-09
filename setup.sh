@@ -63,6 +63,7 @@ function _oh_zsh {
 # terminator
 function _terminator_conf {
     [[ $(which terminator) ]] || return 1
+    mkdir -p ~/.config/terminator/
     cp $cwd/templates/terminator/config ~/.config/terminator/config
 }
 
@@ -72,4 +73,4 @@ function _terminator_conf {
 # _vim_conf
 # _oh_zsh
 # _nerd_fonts
-# _terminator_conf
+_terminator_conf
