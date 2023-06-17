@@ -197,6 +197,17 @@ function __cleanup() {
     fi
 }
 
+function tmp-dir() {
+    # create temp dir
+    name=${1:-"op"}
+    tmp_dir=/tmp/`echo "$name" | cut -d '/' -f5 | cut -d '.' -f1`
+    if [[ -d $tmp_dir ]];then
+        echo "Directory already exists: $tmp_dir"
+        tmp_dir="$tmp_dir-`pwgen -n 2 | cat`"
+    fi
+    mkdir -p $tmp_dir && ([[ `which code` ]] && code $tmp_dir)
+}
+
 # function kubens {
 #     ns=`kubectl get ns -ojson | jq -r '.items[].metadata.name' | fzf -e --ansi --prompt="Select namespace: "`
 #     kubectl config set-context --current --namespace $ns
