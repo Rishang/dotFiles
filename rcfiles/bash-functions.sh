@@ -197,7 +197,7 @@ function __cleanup() {
     fi
 }
 
-function tmp-dir() {
+function temp-dir() {
     # create temp dir
     name=${1:-"op"}
     tmp_dir=/tmp/`echo "$name" | cut -d '/' -f5 | cut -d '.' -f1`
