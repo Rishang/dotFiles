@@ -1494,5 +1494,27 @@
       }
     ],
     "hold_update": false
+  },
+  "https://github.com/iann0036/iamlive#iamlive": {
+    "url": "https://github.com/iann0036/iamlive",
+    "name": "iamlive",
+    "tag_name": "v1.1.1",
+    "prerelease": false,
+    "published_at": "2023-09-17T10:59:42Z",
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/iann0036/iamlive/releases/download/v1.1.1/iamlive-v1.1.1-linux-amd64.tar.gz",
+        "content_type": "application/gzip",
+        "created_at": "2023-09-17T10:59:43Z",
+        "download_count": 353,
+        "id": 126436263,
+        "name": "iamlive-v1.1.1-linux-amd64.tar.gz",
+        "node_id": "RA_kwDOFAXR-c4HiUOn",
+        "size": 5822940,
+        "state": "uploaded",
+        "updated_at": "2023-09-17T10:59:43Z"
+      }
+    ],
+    "hold_update": false
   }
 }
