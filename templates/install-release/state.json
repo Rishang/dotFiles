@@ -2,21 +2,21 @@
   "https://github.com/cli/cli#gh": {
     "url": "https://github.com/cli/cli",
     "name": "cli",
-    "tag_name": "v2.35.0",
+    "tag_name": "v2.36.0",
     "prerelease": false,
-    "published_at": "2023-09-19T09:12:32Z",
+    "published_at": "2023-10-03T13:15:45Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cli/cli/releases/download/v2.35.0/gh_2.35.0_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/cli/cli/releases/download/v2.36.0/gh_2.36.0_linux_amd64.tar.gz",
         "content_type": "application/x-gtar",
-        "created_at": "2023-09-19T09:12:26Z",
-        "download_count": 5476,
-        "id": 126707195,
-        "name": "gh_2.35.0_linux_amd64.tar.gz",
-        "node_id": "RA_kwDODKw3uc4HjWX7",
-        "size": 10627944,
+        "created_at": "2023-10-03T13:15:40Z",
+        "download_count": 15352,
+        "id": 128840675,
+        "name": "gh_2.36.0_linux_amd64.tar.gz",
+        "node_id": "RA_kwDODKw3uc4HrfPj",
+        "size": 10675616,
         "state": "uploaded",
-        "updated_at": "2023-09-19T09:12:27Z"
+        "updated_at": "2023-10-03T13:15:42Z"
       }
     ],
     "hold_update": false
@@ -68,21 +68,21 @@
   "https://github.com/kubeshop/testkube#testkube": {
     "url": "https://github.com/kubeshop/testkube",
     "name": "testkube",
-    "tag_name": "v1.14.5",
+    "tag_name": "v1.14.6",
     "prerelease": false,
-    "published_at": "2023-09-25T05:21:05Z",
+    "published_at": "2023-10-02T11:16:14Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v1.14.5/testkube_1.14.5_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v1.14.6/testkube_1.14.6_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-09-25T05:21:05Z",
-        "download_count": 23,
-        "id": 127578906,
-        "name": "testkube_1.14.5_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOFsQgPM4HmrMa",
-        "size": 15176246,
+        "created_at": "2023-10-02T11:16:17Z",
+        "download_count": 14,
+        "id": 128678403,
+        "name": "testkube_1.14.6_Linux_x86_64.tar.gz",
+        "node_id": "RA_kwDOFsQgPM4Hq3oD",
+        "size": 15175930,
         "state": "uploaded",
-        "updated_at": "2023-09-25T05:21:06Z"
+        "updated_at": "2023-10-02T11:16:17Z"
       }
     ],
     "hold_update": false
@@ -112,21 +112,21 @@
   "https://github.com/shihanng/tfvar#tfvar": {
     "url": "https://github.com/shihanng/tfvar",
     "name": "tfvar",
-    "tag_name": "v0.8.0",
+    "tag_name": "v0.8.1",
     "prerelease": false,
-    "published_at": "2023-07-25T20:11:48Z",
+    "published_at": "2023-10-06T15:25:54Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/shihanng/tfvar/releases/download/v0.8.0/tfvar_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/shihanng/tfvar/releases/download/v0.8.1/tfvar_linux_amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-07-25T20:15:47Z",
-        "download_count": 4,
-        "id": 118613589,
+        "created_at": "2023-10-06T15:31:00Z",
+        "download_count": 2,
+        "id": 129367818,
         "name": "tfvar_linux_amd64.tar.gz",
-        "node_id": "RA_kwDODg3ufM4HEeZV",
-        "size": 4014701,
+        "node_id": "RA_kwDODg3ufM4Htf8K",
+        "size": 4015118,
         "state": "uploaded",
-        "updated_at": "2023-07-25T20:15:48Z"
+        "updated_at": "2023-10-06T15:31:00Z"
       }
     ],
     "hold_update": false
@@ -200,21 +200,21 @@
   "https://github.com/cilium/cilium-cli#cilium": {
     "url": "https://github.com/cilium/cilium-cli",
     "name": "cilium-cli",
-    "tag_name": "v0.15.8",
+    "tag_name": "v0.15.10",
     "prerelease": false,
-    "published_at": "2023-09-12T18:52:14Z",
+    "published_at": "2023-10-07T05:59:34Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.15.8/cilium-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.15.10/cilium-linux-amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-09-12T18:51:38Z",
-        "download_count": 2841,
-        "id": 125736115,
+        "created_at": "2023-10-07T05:58:22Z",
+        "download_count": 462,
+        "id": 129458322,
         "name": "cilium-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOE0nmLs4HfpSz",
-        "size": 33316045,
+        "node_id": "RA_kwDOE0nmLs4Ht2CS",
+        "size": 33938694,
         "state": "uploaded",
-        "updated_at": "2023-09-12T18:51:40Z"
+        "updated_at": "2023-10-07T05:58:24Z"
       }
     ],
     "hold_update": false
@@ -420,21 +420,21 @@
   "https://github.com/sharkdp/hyperfine#hyperfine": {
     "url": "https://github.com/sharkdp/hyperfine",
     "name": "hyperfine",
-    "tag_name": "v1.17.0",
+    "tag_name": "v1.18.0",
     "prerelease": false,
-    "published_at": "2023-06-04T06:22:26Z",
+    "published_at": "2023-10-05T08:07:11Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/sharkdp/hyperfine/releases/download/v1.17.0/hyperfine-v1.17.0-x86_64-unknown-linux-gnu.tar.gz",
+        "browser_download_url": "https://github.com/sharkdp/hyperfine/releases/download/v1.18.0/hyperfine-v1.18.0-x86_64-unknown-linux-gnu.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-06-04T06:24:42Z",
-        "download_count": 70,
-        "id": 111193274,
-        "name": "hyperfine-v1.17.0-x86_64-unknown-linux-gnu.tar.gz",
-        "node_id": "RA_kwDOBv62x84GoKy6",
-        "size": 599525,
+        "created_at": "2023-10-05T08:11:46Z",
+        "download_count": 274,
+        "id": 129136486,
+        "name": "hyperfine-v1.18.0-x86_64-unknown-linux-gnu.tar.gz",
+        "node_id": "RA_kwDOBv62x84Hsndm",
+        "size": 641859,
         "state": "uploaded",
-        "updated_at": "2023-06-04T06:24:42Z"
+        "updated_at": "2023-10-05T08:11:47Z"
       }
     ],
     "hold_update": false
@@ -662,21 +662,21 @@
   "https://github.com/pocketbase/pocketbase#pocketbase": {
     "url": "https://github.com/pocketbase/pocketbase",
     "name": "pocketbase",
-    "tag_name": "v0.18.8",
+    "tag_name": "v0.18.10",
     "prerelease": false,
-    "published_at": "2023-09-24T08:47:20Z",
+    "published_at": "2023-10-08T21:01:00Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.18.8/pocketbase_0.18.8_linux_amd64.zip",
+        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.18.10/pocketbase_0.18.10_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2023-09-24T08:43:33Z",
-        "download_count": 376,
-        "id": 127480026,
-        "name": "pocketbase_0.18.8_linux_amd64.zip",
-        "node_id": "RA_kwDOHm9BJM4HmTDa",
-        "size": 15305263,
+        "created_at": "2023-10-08T20:59:57Z",
+        "download_count": 260,
+        "id": 129637469,
+        "name": "pocketbase_0.18.10_linux_amd64.zip",
+        "node_id": "RA_kwDOHm9BJM4Huhxd",
+        "size": 15296617,
         "state": "uploaded",
-        "updated_at": "2023-09-24T08:43:33Z"
+        "updated_at": "2023-10-08T20:59:58Z"
       }
     ],
     "hold_update": false
@@ -816,21 +816,21 @@
   "https://github.com/nektos/act#act": {
     "url": "https://github.com/nektos/act",
     "name": "act",
-    "tag_name": "v0.2.51",
+    "tag_name": "v0.2.52",
     "prerelease": false,
-    "published_at": "2023-09-23T11:44:16Z",
+    "published_at": "2023-10-01T02:22:47Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.51/act_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.52/act_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-09-23T11:44:16Z",
-        "download_count": 863,
-        "id": 127383041,
+        "created_at": "2023-10-01T02:22:48Z",
+        "download_count": 2930,
+        "id": 128508478,
         "name": "act_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOCcSpD84Hl7YB",
-        "size": 6389354,
+        "node_id": "RA_kwDOCcSpD84HqOI-",
+        "size": 6398692,
         "state": "uploaded",
-        "updated_at": "2023-09-23T11:44:17Z"
+        "updated_at": "2023-10-01T02:22:49Z"
       }
     ],
     "hold_update": false
@@ -1036,21 +1036,21 @@
   "https://github.com/denoland/deno#deno": {
     "url": "https://github.com/denoland/deno",
     "name": "deno",
-    "tag_name": "v1.37.0",
+    "tag_name": "v1.37.1",
     "prerelease": false,
-    "published_at": "2023-09-19T23:57:51Z",
+    "published_at": "2023-09-27T07:50:37Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.37.0/deno-x86_64-unknown-linux-gnu.zip",
+        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.37.1/deno-x86_64-unknown-linux-gnu.zip",
         "content_type": "application/zip",
-        "created_at": "2023-09-19T21:29:41Z",
-        "download_count": 17953,
-        "id": 126802647,
+        "created_at": "2023-09-27T07:08:44Z",
+        "download_count": 84153,
+        "id": 127920853,
         "name": "deno-x86_64-unknown-linux-gnu.zip",
-        "node_id": "RA_kwDOB_QrUM4HjtrX",
-        "size": 43130187,
+        "node_id": "RA_kwDOB_QrUM4Hn-rV",
+        "size": 43476970,
         "state": "uploaded",
-        "updated_at": "2023-09-19T21:29:42Z"
+        "updated_at": "2023-09-27T07:08:45Z"
       }
     ],
     "hold_update": false
@@ -1212,21 +1212,21 @@
   "https://github.com/gruntwork-io/terragrunt#terragrunt": {
     "url": "https://github.com/gruntwork-io/terragrunt",
     "name": "terragrunt",
-    "tag_name": "v0.51.4",
+    "tag_name": "v0.52.1",
     "prerelease": false,
-    "published_at": "2023-09-21T09:31:17Z",
+    "published_at": "2023-10-08T10:41:36Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.51.4/terragrunt_linux_amd64",
+        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.52.1/terragrunt_linux_amd64",
         "content_type": "application/x-executable",
-        "created_at": "2023-09-21T09:41:41Z",
-        "download_count": 3439,
-        "id": 127059349,
+        "created_at": "2023-10-08T10:52:38Z",
+        "download_count": 5058,
+        "id": 129592878,
         "name": "terragrunt_linux_amd64",
-        "node_id": "RA_kwDOA4w8Zc4HksWV",
-        "size": 48149171,
+        "node_id": "RA_kwDOA4w8Zc4HuW4u",
+        "size": 48185407,
         "state": "uploaded",
-        "updated_at": "2023-09-21T09:41:51Z"
+        "updated_at": "2023-10-08T10:52:46Z"
       }
     ],
     "hold_update": false
@@ -1256,21 +1256,21 @@
   "https://github.com/dapr/dapr#dapr": {
     "url": "https://github.com/dapr/dapr",
     "name": "dapr",
-    "tag_name": "v1.11.3",
+    "tag_name": "v1.11.4",
     "prerelease": false,
-    "published_at": "2023-08-31T18:54:34Z",
+    "published_at": "2023-10-05T05:18:50Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/dapr/dapr/releases/download/v1.11.3/daprd_linux_amd64-stablecomponents.tar.gz",
+        "browser_download_url": "https://github.com/dapr/dapr/releases/download/v1.11.4/daprd_linux_amd64-stablecomponents.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-08-31T18:54:38Z",
-        "download_count": 1,
-        "id": 123988329,
+        "created_at": "2023-10-05T05:18:55Z",
+        "download_count": 5,
+        "id": 129118712,
         "name": "daprd_linux_amd64-stablecomponents.tar.gz",
-        "node_id": "RA_kwDOC3tUwM4HY-lp",
-        "size": 30431759,
+        "node_id": "RA_kwDOC3tUwM4HsjH4",
+        "size": 30437052,
         "state": "uploaded",
-        "updated_at": "2023-08-31T18:54:39Z"
+        "updated_at": "2023-10-05T05:18:56Z"
       }
     ],
     "hold_update": false
@@ -1344,21 +1344,21 @@
   "https://github.com/cloudquery/cloudquery#cloudquery": {
     "url": "https://github.com/cloudquery/cloudquery",
     "name": "cloudquery",
-    "tag_name": "plugins-destination-meilisearch-v2.2.8",
+    "tag_name": "plugins-source-homebrew-v3.0.11",
     "prerelease": false,
-    "published_at": "2023-09-25T09:26:39Z",
+    "published_at": "2023-10-06T13:02:33Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cloudquery/cloudquery/releases/download/plugins-destination-meilisearch-v2.2.8/meilisearch_linux_amd64.zip",
+        "browser_download_url": "https://github.com/cloudquery/cloudquery/releases/download/plugins-source-homebrew-v3.0.11/homebrew_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2023-09-25T09:27:38Z",
-        "download_count": 1,
-        "id": 127603079,
-        "name": "meilisearch_linux_amd64.zip",
-        "node_id": "RA_kwDOErUFbc4HmxGH",
-        "size": 8573654,
+        "created_at": "2023-10-06T13:08:57Z",
+        "download_count": 4,
+        "id": 129348038,
+        "name": "homebrew_linux_amd64.zip",
+        "node_id": "RA_kwDOErUFbc4HtbHG",
+        "size": 10000928,
         "state": "uploaded",
-        "updated_at": "2023-09-25T09:27:39Z"
+        "updated_at": "2023-10-06T13:08:57Z"
       }
     ],
     "hold_update": false
