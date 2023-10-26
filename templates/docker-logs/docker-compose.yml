@@ -8,3 +8,8 @@ services:
     ports:
       - 9999:8080
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 256M
