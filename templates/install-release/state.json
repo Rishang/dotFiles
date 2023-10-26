@@ -310,21 +310,21 @@
   "https://github.com/sharkdp/fd#fd": {
     "url": "https://github.com/sharkdp/fd",
     "name": "fd",
-    "tag_name": "v8.7.0",
+    "tag_name": "v8.7.1",
     "prerelease": false,
-    "published_at": "2023-02-24T08:25:03Z",
+    "published_at": "2023-10-21T04:29:37Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/sharkdp/fd/releases/download/v8.7.0/fd-v8.7.0-x86_64-unknown-linux-gnu.tar.gz",
+        "browser_download_url": "https://github.com/sharkdp/fd/releases/download/v8.7.1/fd-v8.7.1-x86_64-unknown-linux-gnu.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2023-02-24T08:33:02Z",
-        "download_count": 9093,
-        "id": 96912798,
-        "name": "fd-v8.7.0-x86_64-unknown-linux-gnu.tar.gz",
-        "node_id": "RA_kwDOBWllys4FxsWe",
-        "size": 1423902,
+        "created_at": "2023-10-21T04:34:22Z",
+        "download_count": 71,
+        "id": 131649124,
+        "name": "fd-v8.7.1-x86_64-unknown-linux-gnu.tar.gz",
+        "node_id": "RA_kwDOBWllys4H2M5k",
+        "size": 1705938,
         "state": "uploaded",
-        "updated_at": "2023-02-24T08:33:03Z"
+        "updated_at": "2023-10-21T04:34:22Z"
       }
     ],
     "hold_update": false
@@ -1102,21 +1102,21 @@
   "https://github.com/kubernetes-sigs/kustomize#kustomize": {
     "url": "https://github.com/kubernetes-sigs/kustomize",
     "name": "kustomize",
-    "tag_name": "kustomize/v5.1.1",
+    "tag_name": "kustomize/v5.2.1",
     "prerelease": false,
-    "published_at": "2023-07-31T17:20:01Z",
+    "published_at": "2023-10-19T20:22:10Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.1.1/kustomize_v5.1.1_linux_amd64.tar.gz",
-        "content_type": "application/gzip",
-        "created_at": "2023-07-31T17:14:21Z",
-        "download_count": 12239,
-        "id": 119460643,
-        "name": "kustomize_v5.1.1_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOB-5y6s4HHtMj",
-        "size": 6008579,
+        "browser_download_url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.2.1/kustomize_v5.2.1_linux_amd64.tar.gz",
+        "content_type": "application/x-gtar",
+        "created_at": "2023-10-19T20:18:23Z",
+        "download_count": 11351,
+        "id": 131429751,
+        "name": "kustomize_v5.2.1_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOB-5y6s4H1XV3",
+        "size": 5946650,
         "state": "uploaded",
-        "updated_at": "2023-07-31T17:14:22Z"
+        "updated_at": "2023-10-19T20:18:24Z"
       }
     ],
     "hold_update": false
@@ -1190,21 +1190,21 @@
   "https://github.com/gruntwork-io/terragrunt#terragrunt": {
     "url": "https://github.com/gruntwork-io/terragrunt",
     "name": "terragrunt",
-    "tag_name": "v0.52.3",
+    "tag_name": "v0.52.4",
     "prerelease": false,
-    "published_at": "2023-10-13T19:13:10Z",
+    "published_at": "2023-10-20T16:51:08Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.52.3/terragrunt_linux_amd64",
+        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.52.4/terragrunt_linux_amd64",
         "content_type": "application/x-executable",
-        "created_at": "2023-10-13T19:23:33Z",
-        "download_count": 2935,
-        "id": 130490096,
+        "created_at": "2023-10-20T17:00:35Z",
+        "download_count": 1933,
+        "id": 131580494,
         "name": "terragrunt_linux_amd64",
-        "node_id": "RA_kwDOA4w8Zc4Hxx7w",
-        "size": 48176597,
+        "node_id": "RA_kwDOA4w8Zc4H18JO",
+        "size": 48573881,
         "state": "uploaded",
-        "updated_at": "2023-10-13T19:23:41Z"
+        "updated_at": "2023-10-20T17:00:45Z"
       }
     ],
     "hold_update": false
@@ -1322,21 +1322,21 @@
   "https://github.com/cloudquery/cloudquery#cloudquery": {
     "url": "https://github.com/cloudquery/cloudquery",
     "name": "cloudquery",
-    "tag_name": "plugins-destination-mssql-v4.3.12",
+    "tag_name": "plugins-source-oracle-v4.2.1",
     "prerelease": false,
-    "published_at": "2023-10-19T15:36:38Z",
+    "published_at": "2023-10-20T14:45:53Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cloudquery/cloudquery/releases/download/plugins-destination-mssql-v4.3.12/mssql_linux_amd64.zip",
+        "browser_download_url": "https://github.com/cloudquery/cloudquery/releases/download/plugins-source-oracle-v4.2.1/oracle_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2023-10-19T15:39:11Z",
-        "download_count": 0,
-        "id": 131390677,
-        "name": "mssql_linux_amd64.zip",
-        "node_id": "RA_kwDOErUFbc4H1NzV",
-        "size": 11028928,
+        "created_at": "2023-10-20T14:51:25Z",
+        "download_count": 2,
+        "id": 131561404,
+        "name": "oracle_linux_amd64.zip",
+        "node_id": "RA_kwDOErUFbc4H13e8",
+        "size": 28774381,
         "state": "uploaded",
-        "updated_at": "2023-10-19T15:39:12Z"
+        "updated_at": "2023-10-20T14:51:27Z"
       }
     ],
     "hold_update": false
@@ -1513,6 +1513,28 @@
         "size": 31607611,
         "state": "uploaded",
         "updated_at": "2023-09-04T07:36:48Z"
+      }
+    ],
+    "hold_update": false
+  },
+  "https://github.com/go-task/task#task": {
+    "url": "https://github.com/go-task/task",
+    "name": "task",
+    "tag_name": "v3.31.0",
+    "prerelease": false,
+    "published_at": "2023-10-07T22:17:52Z",
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/go-task/task/releases/download/v3.31.0/task_linux_amd64.tar.gz",
+        "content_type": "application/gzip",
+        "created_at": "2023-10-07T22:15:46Z",
+        "download_count": 94000,
+        "id": 129530254,
+        "name": "task_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOBPZW984HuHmO",
+        "size": 3563131,
+        "state": "uploaded",
+        "updated_at": "2023-10-07T22:15:46Z"
       }
     ],
     "hold_update": false
