@@ -989,28 +989,6 @@
     ],
     "hold_update": false
   },
-  "https://github.com/ogham/dog#dog": {
-    "url": "https://github.com/ogham/dog",
-    "name": "dog",
-    "tag_name": "v0.1.0",
-    "prerelease": false,
-    "published_at": "2020-11-07T12:39:55Z",
-    "assets": [
-      {
-        "browser_download_url": "https://github.com/ogham/dog/releases/download/v0.1.0/dog-v0.1.0-x86_64-unknown-linux-gnu.zip",
-        "content_type": "application/zip",
-        "created_at": "2020-11-07T12:15:40Z",
-        "download_count": 16534,
-        "id": 28042274,
-        "name": "dog-v0.1.0-x86_64-unknown-linux-gnu.zip",
-        "node_id": "MDEyOlJlbGVhc2VBc3NldDI4MDQyMjc0",
-        "size": 298210,
-        "state": "uploaded",
-        "updated_at": "2020-11-07T12:15:41Z"
-      }
-    ],
-    "hold_update": false
-  },
   "https://github.com/piyushsonigra/aws_ipadd#aws-ipadd": {
     "url": "https://github.com/piyushsonigra/aws_ipadd",
     "name": "aws_ipadd",
