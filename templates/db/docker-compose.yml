@@ -1,0 +1,36 @@
+version: '3.1'
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - mongodb_data:/data/db
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 216M
+        reservations:
+          cpus: '0.1'
+          memory: 86M
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data/db
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 216M
+        reservations:
+          cpus: '0.1'
+          memory: 86M
+volumes:
+  mongodb_data:
+  redis_data:
