@@ -45,6 +45,8 @@ alias filebrowser="filebrowser --database ~/.config/filebrowser.db"
 
 alias myip="curl https://ipconfig.io"
 
+alias open-git-url='git remote -v | grep -ioE "https.+.git" | sort -u | xargs xdg-open'
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
