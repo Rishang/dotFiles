@@ -37,9 +37,6 @@ alias btop="bpytop"
 # kubeclt
 alias kc="kubectl"
 
-# https://github.com/Rishang/install-release
-alias ir=install-release
-
 # https://github.com/filebrowser/filebrowser
 alias filebrowser="filebrowser --database ~/.config/filebrowser.db"
 
