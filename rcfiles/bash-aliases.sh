@@ -44,6 +44,19 @@ alias myip="curl https://ipconfig.io"
 
 alias open-git-url='git remote -v | grep -ioE "https.+.git" | sort -u | xargs xdg-open'
 
+
+alias fhistory="cat ~/.zsh_history | cut -d ';' -f2- | fzf -e "
+
+alias k="kubectl"
+
+# due to wayland crap
+alias screen2txt="sleep 1;bash $HOME/.local/opt/screenshot2text/start.sh"
+
+
+alias _tunnel_cloudflare="echo 'curl -sS https://gitlab.com/-/snippets/2552034/raw/main/cloudflare_ssh.sh | bash'"
+
+alias screenshot2text='ss_name="/tmp/screenshot_$RANDOM.png" && sleep 2 && flameshot gui -r > $ss_name && tesseract "$ss_name" stdout > "$ss_name.txt" && gnome-text-editor "$ss_name.txt" &'
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."

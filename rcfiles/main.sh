@@ -19,7 +19,7 @@ if [[ -e "/etc/os-release" ]];then
       source ~/.my-config/rcfiles/distro_aliases/debian.sh
       ;;
     *)
-      echo
+      
       ;;
   esac
 
