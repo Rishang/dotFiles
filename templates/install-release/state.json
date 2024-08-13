@@ -24,21 +24,21 @@
   "https://github.com/cli/cli#gh": {
     "url": "https://github.com/cli/cli",
     "name": "cli",
-    "tag_name": "v2.52.0",
+    "tag_name": "v2.54.0",
     "prerelease": false,
-    "published_at": "2024-06-24T19:10:40Z",
+    "published_at": "2024-08-01T17:47:21Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cli/cli/releases/download/v2.52.0/gh_2.52.0_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/cli/cli/releases/download/v2.54.0/gh_2.54.0_linux_amd64.tar.gz",
         "content_type": "application/x-gtar",
-        "created_at": "2024-06-24T19:10:35Z",
-        "download_count": 100684,
-        "id": 175682889,
-        "name": "gh_2.52.0_linux_amd64.tar.gz",
-        "node_id": "RA_kwDODKw3uc4KeLVJ",
-        "size": 12979751,
+        "created_at": "2024-08-01T17:47:18Z",
+        "download_count": 39216,
+        "id": 183262049,
+        "name": "gh_2.54.0_linux_amd64.tar.gz",
+        "node_id": "RA_kwDODKw3uc4K7Fth",
+        "size": 12993922,
         "state": "uploaded",
-        "updated_at": "2024-06-24T19:10:36Z"
+        "updated_at": "2024-08-01T17:47:18Z"
       }
     ],
     "hold_update": false
@@ -90,21 +90,21 @@
   "https://github.com/kubeshop/testkube#testkube": {
     "url": "https://github.com/kubeshop/testkube",
     "name": "testkube",
-    "tag_name": "v2.0.5",
+    "tag_name": "v2.0.20",
     "prerelease": false,
-    "published_at": "2024-07-08T08:23:34Z",
+    "published_at": "2024-08-08T10:35:58Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v2.0.5/testkube_2.0.5_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/kubeshop/testkube/releases/download/v2.0.20/testkube_2.0.20_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-07-08T08:23:26Z",
-        "download_count": 21,
-        "id": 178308320,
-        "name": "testkube_2.0.5_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOFsQgPM4KoMTg",
-        "size": 16856594,
+        "created_at": "2024-08-08T10:35:52Z",
+        "download_count": 165,
+        "id": 184664161,
+        "name": "testkube_2.0.20_Linux_x86_64.tar.gz",
+        "node_id": "RA_kwDOFsQgPM4LAcBh",
+        "size": 16859413,
         "state": "uploaded",
-        "updated_at": "2024-07-08T08:23:27Z"
+        "updated_at": "2024-08-08T10:35:53Z"
       }
     ],
     "hold_update": false
@@ -200,21 +200,21 @@
   "https://github.com/cloudflare/cloudflared#cloudflared": {
     "url": "https://github.com/cloudflare/cloudflared",
     "name": "cloudflared",
-    "tag_name": "2024.6.1",
+    "tag_name": "2024.8.2",
     "prerelease": false,
-    "published_at": "2024-06-18T14:01:50Z",
+    "published_at": "2024-08-06T12:31:47Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cloudflare/cloudflared/releases/download/2024.6.1/cloudflared-fips-linux-amd64",
+        "browser_download_url": "https://github.com/cloudflare/cloudflared/releases/download/2024.8.2/cloudflared-fips-linux-amd64",
         "content_type": "application/octet-stream",
-        "created_at": "2024-06-18T14:01:52Z",
-        "download_count": 3307,
-        "id": 174500427,
+        "created_at": "2024-08-06T12:32:32Z",
+        "download_count": 277,
+        "id": 184208239,
         "name": "cloudflared-fips-linux-amd64",
-        "node_id": "RA_kwDOBl6rlM4KZqpL",
-        "size": 39768504,
+        "node_id": "RA_kwDOBl6rlM4K-stv",
+        "size": 39774608,
         "state": "uploaded",
-        "updated_at": "2024-06-18T14:01:54Z"
+        "updated_at": "2024-08-06T12:32:33Z"
       }
     ],
     "hold_update": false
@@ -222,21 +222,21 @@
   "https://github.com/cilium/cilium-cli#cilium": {
     "url": "https://github.com/cilium/cilium-cli",
     "name": "cilium-cli",
-    "tag_name": "v0.16.11",
+    "tag_name": "v0.16.15",
     "prerelease": false,
-    "published_at": "2024-06-27T15:55:54Z",
+    "published_at": "2024-08-07T09:51:08Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.16.11/cilium-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/cilium/cilium-cli/releases/download/v0.16.15/cilium-linux-amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-06-27T15:55:12Z",
-        "download_count": 16269,
-        "id": 176307957,
+        "created_at": "2024-08-07T09:43:34Z",
+        "download_count": 221,
+        "id": 184418891,
         "name": "cilium-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOE0nmLs4Kgj71",
-        "size": 45207324,
+        "node_id": "RA_kwDOE0nmLs4K_gJL",
+        "size": 46380544,
         "state": "uploaded",
-        "updated_at": "2024-06-27T15:55:14Z"
+        "updated_at": "2024-08-07T09:43:35Z"
       }
     ],
     "hold_update": false
@@ -244,21 +244,21 @@
   "https://github.com/okteto/okteto#okteto": {
     "url": "https://github.com/okteto/okteto",
     "name": "okteto",
-    "tag_name": "2.29.0",
+    "tag_name": "2.30.0",
     "prerelease": false,
-    "published_at": "2024-07-04T11:38:31Z",
+    "published_at": "2024-08-08T11:17:40Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/okteto/okteto/releases/download/2.29.0/okteto-Linux-x86_64",
+        "browser_download_url": "https://github.com/okteto/okteto/releases/download/2.30.0/okteto-Linux-x86_64",
         "content_type": "application/octet-stream",
-        "created_at": "2024-07-04T11:38:28Z",
-        "download_count": 202,
-        "id": 177664097,
+        "created_at": "2024-08-08T11:17:37Z",
+        "download_count": 114,
+        "id": 184670565,
         "name": "okteto-Linux-x86_64",
-        "node_id": "RA_kwDOCJLt4c4KlvBh",
-        "size": 82194584,
+        "node_id": "RA_kwDOCJLt4c4LAdll",
+        "size": 82202776,
         "state": "uploaded",
-        "updated_at": "2024-07-04T11:38:31Z"
+        "updated_at": "2024-08-08T11:17:40Z"
       }
     ],
     "hold_update": false
@@ -288,21 +288,21 @@
   "https://github.com/docker/compose#docker-compose": {
     "url": "https://github.com/docker/compose",
     "name": "compose",
-    "tag_name": "v2.28.1",
+    "tag_name": "v2.29.1",
     "prerelease": false,
-    "published_at": "2024-06-24T13:19:35Z",
+    "published_at": "2024-07-23T14:39:07Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/docker/compose/releases/download/v2.28.1/docker-compose-linux-x86_64",
+        "browser_download_url": "https://github.com/docker/compose/releases/download/v2.29.1/docker-compose-linux-x86_64",
         "content_type": "raw",
-        "created_at": "2024-06-24T13:06:53Z",
-        "download_count": 297220,
-        "id": 175627020,
+        "created_at": "2024-07-23T14:38:05Z",
+        "download_count": 324515,
+        "id": 181338850,
         "name": "docker-compose-linux-x86_64",
-        "node_id": "RA_kwDOAOWUd84Kd9sM",
-        "size": 63083225,
+        "node_id": "RA_kwDOAOWUd84KzwLi",
+        "size": 63160243,
         "state": "uploaded",
-        "updated_at": "2024-06-24T13:06:54Z"
+        "updated_at": "2024-07-23T14:38:07Z"
       }
     ],
     "hold_update": false
@@ -376,21 +376,21 @@
   "https://github.com/bootandy/dust#dust": {
     "url": "https://github.com/bootandy/dust",
     "name": "dust",
-    "tag_name": "v1.0.0",
+    "tag_name": "v1.1.1",
     "prerelease": false,
-    "published_at": "2024-03-25T22:44:47Z",
+    "published_at": "2024-07-17T18:38:14Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/bootandy/dust/releases/download/v1.0.0/dust-v1.0.0-x86_64-unknown-linux-gnu.tar.gz",
+        "browser_download_url": "https://github.com/bootandy/dust/releases/download/v1.1.1/dust-v1.1.1-x86_64-unknown-linux-gnu.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-03-25T22:45:09Z",
-        "download_count": 2767,
-        "id": 158581963,
-        "name": "dust-v1.0.0-x86_64-unknown-linux-gnu.tar.gz",
-        "node_id": "RA_kwDOB3vwtc4Jc8TL",
-        "size": 1187574,
+        "created_at": "2024-07-17T18:40:28Z",
+        "download_count": 843,
+        "id": 180186712,
+        "name": "dust-v1.1.1-x86_64-unknown-linux-gnu.tar.gz",
+        "node_id": "RA_kwDOB3vwtc4KvW5Y",
+        "size": 1202683,
         "state": "uploaded",
-        "updated_at": "2024-03-25T22:45:09Z"
+        "updated_at": "2024-07-17T18:40:28Z"
       }
     ],
     "hold_update": false
@@ -508,21 +508,21 @@
   "https://github.com/aquasecurity/trivy#trivy": {
     "url": "https://github.com/aquasecurity/trivy",
     "name": "trivy",
-    "tag_name": "v0.53.0",
+    "tag_name": "v0.54.1",
     "prerelease": false,
-    "published_at": "2024-07-01T12:16:03Z",
+    "published_at": "2024-07-31T16:45:52Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/aquasecurity/trivy/releases/download/v0.53.0/trivy_0.53.0_Linux-64bit.tar.gz",
+        "browser_download_url": "https://github.com/aquasecurity/trivy/releases/download/v0.54.1/trivy_0.54.1_Linux-64bit.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-07-01T12:15:51Z",
-        "download_count": 81422,
-        "id": 176981043,
-        "name": "trivy_0.53.0_Linux-64bit.tar.gz",
-        "node_id": "RA_kwDOCsUTCM4KjIQz",
-        "size": 37999143,
+        "created_at": "2024-07-31T16:45:41Z",
+        "download_count": 75521,
+        "id": 183013437,
+        "name": "trivy_0.54.1_Linux-64bit.tar.gz",
+        "node_id": "RA_kwDOCsUTCM4K6JA9",
+        "size": 39180445,
         "state": "uploaded",
-        "updated_at": "2024-07-01T12:15:52Z"
+        "updated_at": "2024-07-31T16:45:42Z"
       }
     ],
     "hold_update": false
@@ -684,21 +684,21 @@
   "https://github.com/pocketbase/pocketbase#pocketbase": {
     "url": "https://github.com/pocketbase/pocketbase",
     "name": "pocketbase",
-    "tag_name": "v0.22.16",
+    "tag_name": "v0.22.19",
     "prerelease": false,
-    "published_at": "2024-07-06T11:27:03Z",
+    "published_at": "2024-08-12T19:44:27Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.22.16/pocketbase_0.22.16_linux_amd64.zip",
+        "browser_download_url": "https://github.com/pocketbase/pocketbase/releases/download/v0.22.19/pocketbase_0.22.19_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2024-07-06T11:24:11Z",
-        "download_count": 511,
-        "id": 178031864,
-        "name": "pocketbase_0.22.16_linux_amd64.zip",
-        "node_id": "RA_kwDOHm9BJM4KnIz4",
-        "size": 14402446,
+        "created_at": "2024-08-12T19:40:00Z",
+        "download_count": 102,
+        "id": 185523388,
+        "name": "pocketbase_0.22.19_linux_amd64.zip",
+        "node_id": "RA_kwDOHm9BJM4LDty8",
+        "size": 14410702,
         "state": "uploaded",
-        "updated_at": "2024-07-06T11:24:12Z"
+        "updated_at": "2024-08-12T19:40:01Z"
       }
     ],
     "hold_update": false
@@ -750,21 +750,21 @@
   "https://github.com/FairwindsOps/goldilocks#goldilocks": {
     "url": "https://github.com/FairwindsOps/goldilocks",
     "name": "goldilocks",
-    "tag_name": "v4.11.1",
+    "tag_name": "v4.13.0",
     "prerelease": false,
-    "published_at": "2024-03-19T18:33:58Z",
+    "published_at": "2024-07-29T16:25:30Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/FairwindsOps/goldilocks/releases/download/v4.11.1/goldilocks_4.11.1_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/FairwindsOps/goldilocks/releases/download/v4.13.0/goldilocks_4.13.0_linux_amd64.tar.gz",
         "content_type": "application/octet-stream",
-        "created_at": "2024-03-19T18:33:58Z",
-        "download_count": 37,
-        "id": 157523418,
-        "name": "goldilocks_4.11.1_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOCvAlSc4JY53a",
-        "size": 13047649,
+        "created_at": "2024-07-29T16:25:31Z",
+        "download_count": 9,
+        "id": 182566995,
+        "name": "goldilocks_4.13.0_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOCvAlSc4K4cBT",
+        "size": 12912487,
         "state": "uploaded",
-        "updated_at": "2024-03-19T18:33:59Z"
+        "updated_at": "2024-07-29T16:25:31Z"
       }
     ],
     "hold_update": false
@@ -816,21 +816,21 @@
   "https://github.com/warrensbox/terraform-switcher#tfswitch": {
     "url": "https://github.com/warrensbox/terraform-switcher",
     "name": "terraform-switcher",
-    "tag_name": "v1.2.1",
+    "tag_name": "v1.2.2",
     "prerelease": false,
-    "published_at": "2024-07-06T09:36:29Z",
+    "published_at": "2024-07-10T05:37:49Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/warrensbox/terraform-switcher/releases/download/v1.2.1/terraform-switcher_v1.2.1_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/warrensbox/terraform-switcher/releases/download/v1.2.2/terraform-switcher_v1.2.2_linux_amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-07-06T09:36:28Z",
-        "download_count": 7965,
-        "id": 178022422,
-        "name": "terraform-switcher_v1.2.1_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOB9irW84KnGgW",
-        "size": 4686712,
+        "created_at": "2024-07-10T05:37:49Z",
+        "download_count": 119368,
+        "id": 178704687,
+        "name": "terraform-switcher_v1.2.2_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOB9irW84KptEv",
+        "size": 4687139,
         "state": "uploaded",
-        "updated_at": "2024-07-06T09:36:28Z"
+        "updated_at": "2024-07-10T05:37:49Z"
       }
     ],
     "hold_update": false
@@ -838,21 +838,21 @@
   "https://github.com/nektos/act#act": {
     "url": "https://github.com/nektos/act",
     "name": "act",
-    "tag_name": "v0.2.64",
+    "tag_name": "v0.2.65",
     "prerelease": false,
-    "published_at": "2024-07-01T02:26:10Z",
+    "published_at": "2024-08-01T02:26:58Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.64/act_Linux_x86_64.tar.gz",
+        "browser_download_url": "https://github.com/nektos/act/releases/download/v0.2.65/act_Linux_x86_64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-07-01T02:26:08Z",
-        "download_count": 3247,
-        "id": 176901803,
+        "created_at": "2024-08-01T02:26:55Z",
+        "download_count": 2781,
+        "id": 183113431,
         "name": "act_Linux_x86_64.tar.gz",
-        "node_id": "RA_kwDOCcSpD84Ki06r",
-        "size": 7079296,
+        "node_id": "RA_kwDOCcSpD84K6hbX",
+        "size": 7087619,
         "state": "uploaded",
-        "updated_at": "2024-07-01T02:26:08Z"
+        "updated_at": "2024-08-01T02:26:56Z"
       }
     ],
     "hold_update": false
@@ -948,21 +948,21 @@
   "https://github.com/projectdiscovery/httpx#httpx": {
     "url": "https://github.com/projectdiscovery/httpx",
     "name": "httpx",
-    "tag_name": "v1.6.5",
+    "tag_name": "v1.6.7",
     "prerelease": false,
-    "published_at": "2024-06-24T14:33:46Z",
+    "published_at": "2024-08-02T22:09:27Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/projectdiscovery/httpx/releases/download/v1.6.5/httpx_1.6.5_linux_amd64.zip",
+        "browser_download_url": "https://github.com/projectdiscovery/httpx/releases/download/v1.6.7/httpx_1.6.7_linux_amd64.zip",
         "content_type": "application/zip",
-        "created_at": "2024-06-24T14:35:29Z",
-        "download_count": 3959,
-        "id": 175642327,
-        "name": "httpx_1.6.5_linux_amd64.zip",
-        "node_id": "RA_kwDOD_T7BM4KeBbX",
-        "size": 14216445,
+        "created_at": "2024-08-02T22:11:16Z",
+        "download_count": 1409,
+        "id": 183536202,
+        "name": "httpx_1.6.7_linux_amd64.zip",
+        "node_id": "RA_kwDOD_T7BM4K8IpK",
+        "size": 14397795,
         "state": "uploaded",
-        "updated_at": "2024-06-24T14:35:30Z"
+        "updated_at": "2024-08-02T22:11:17Z"
       }
     ],
     "hold_update": false
@@ -1036,21 +1036,21 @@
   "https://github.com/denoland/deno#deno": {
     "url": "https://github.com/denoland/deno",
     "name": "deno",
-    "tag_name": "v1.44.4",
+    "tag_name": "v1.45.5",
     "prerelease": false,
-    "published_at": "2024-06-19T18:27:34Z",
+    "published_at": "2024-07-31T22:06:35Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.44.4/deno-x86_64-unknown-linux-gnu.zip",
+        "browser_download_url": "https://github.com/denoland/deno/releases/download/v1.45.5/deno-x86_64-unknown-linux-gnu.zip",
         "content_type": "application/zip",
-        "created_at": "2024-06-19T17:14:27Z",
-        "download_count": 235531,
-        "id": 174746884,
+        "created_at": "2024-07-31T20:00:14Z",
+        "download_count": 84595,
+        "id": 183042744,
         "name": "deno-x86_64-unknown-linux-gnu.zip",
-        "node_id": "RA_kwDOB_QrUM4Kam0E",
-        "size": 47076327,
+        "node_id": "RA_kwDOB_QrUM4K6QK4",
+        "size": 47447197,
         "state": "uploaded",
-        "updated_at": "2024-06-19T17:14:28Z"
+        "updated_at": "2024-07-31T20:00:16Z"
       }
     ],
     "hold_update": false
@@ -1080,21 +1080,21 @@
   "https://github.com/kubeshark/kubeshark#kubeshark": {
     "url": "https://github.com/kubeshark/kubeshark",
     "name": "kubeshark",
-    "tag_name": "v52.3.68",
+    "tag_name": "v52.3.73",
     "prerelease": false,
-    "published_at": "2024-06-17T01:44:03Z",
+    "published_at": "2024-08-08T14:08:06Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubeshark/kubeshark/releases/download/v52.3.68/kubeshark_linux_amd64",
+        "browser_download_url": "https://github.com/kubeshark/kubeshark/releases/download/v52.3.73/kubeshark_linux_amd64",
         "content_type": "raw",
-        "created_at": "2024-06-17T01:44:06Z",
-        "download_count": 725,
-        "id": 174195439,
+        "created_at": "2024-08-08T14:08:10Z",
+        "download_count": 79,
+        "id": 184700369,
         "name": "kubeshark_linux_amd64",
-        "node_id": "RA_kwDOFWxNYc4KYgLv",
-        "size": 53309440,
+        "node_id": "RA_kwDOFWxNYc4LAk3R",
+        "size": 50470912,
         "state": "uploaded",
-        "updated_at": "2024-06-17T01:44:07Z"
+        "updated_at": "2024-08-08T14:08:11Z"
       }
     ],
     "hold_update": false
@@ -1102,21 +1102,21 @@
   "https://github.com/kubernetes-sigs/kustomize#kustomize": {
     "url": "https://github.com/kubernetes-sigs/kustomize",
     "name": "kustomize",
-    "tag_name": "kustomize/v5.4.2",
+    "tag_name": "kustomize/v5.4.3",
     "prerelease": false,
-    "published_at": "2024-05-22T15:28:37Z",
+    "published_at": "2024-07-19T16:52:40Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.2/kustomize_v5.4.2_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v5.4.3/kustomize_v5.4.3_linux_amd64.tar.gz",
         "content_type": "application/x-gtar",
-        "created_at": "2024-05-22T15:21:55Z",
-        "download_count": 577777,
-        "id": 169441023,
-        "name": "kustomize_v5.4.2_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOB-5y6s4KGXb_",
-        "size": 5956208,
+        "created_at": "2024-07-19T16:42:56Z",
+        "download_count": 212120,
+        "id": 180623238,
+        "name": "kustomize_v5.4.3_linux_amd64.tar.gz",
+        "node_id": "RA_kwDOB-5y6s4KxBeG",
+        "size": 5982336,
         "state": "uploaded",
-        "updated_at": "2024-05-22T15:21:56Z"
+        "updated_at": "2024-07-19T16:42:56Z"
       }
     ],
     "hold_update": false
@@ -1124,21 +1124,21 @@
   "https://github.com/mikefarah/yq#yq": {
     "url": "https://github.com/mikefarah/yq",
     "name": "yq",
-    "tag_name": "v4.44.2",
+    "tag_name": "v4.44.3",
     "prerelease": false,
-    "published_at": "2024-06-16T04:40:10Z",
+    "published_at": "2024-08-05T07:17:07Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.44.2/yq_linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-06-16T01:25:02Z",
-        "download_count": 50655,
-        "id": 174040551,
+        "created_at": "2024-08-05T05:48:36Z",
+        "download_count": 6842,
+        "id": 183937286,
         "name": "yq_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOApOQGc4KX6Xn",
-        "size": 4087934,
+        "node_id": "RA_kwDOApOQGc4K9qkG",
+        "size": 4091310,
         "state": "uploaded",
-        "updated_at": "2024-06-16T01:25:02Z"
+        "updated_at": "2024-08-05T05:48:37Z"
       }
     ],
     "hold_update": false
@@ -1190,21 +1190,21 @@
   "https://github.com/gruntwork-io/terragrunt#terragrunt": {
     "url": "https://github.com/gruntwork-io/terragrunt",
     "name": "terragrunt",
-    "tag_name": "v0.60.1",
+    "tag_name": "v0.66.4",
     "prerelease": false,
-    "published_at": "2024-07-08T16:06:06Z",
+    "published_at": "2024-08-12T11:12:34Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.60.1/terragrunt_linux_amd64",
+        "browser_download_url": "https://github.com/gruntwork-io/terragrunt/releases/download/v0.66.4/terragrunt_linux_amd64",
         "content_type": "application/x-executable",
-        "created_at": "2024-07-08T16:12:29Z",
-        "download_count": 1784,
-        "id": 178380809,
+        "created_at": "2024-08-12T11:18:39Z",
+        "download_count": 3211,
+        "id": 185435723,
         "name": "terragrunt_linux_amd64",
-        "node_id": "RA_kwDOA4w8Zc4KoeAJ",
-        "size": 77583931,
+        "node_id": "RA_kwDOA4w8Zc4LDYZL",
+        "size": 82850431,
         "state": "uploaded",
-        "updated_at": "2024-07-08T16:12:31Z"
+        "updated_at": "2024-08-12T11:18:42Z"
       }
     ],
     "hold_update": false
@@ -1278,21 +1278,21 @@
   "https://github.com/junegunn/fzf#fzf": {
     "url": "https://github.com/junegunn/fzf",
     "name": "fzf",
-    "tag_name": "v0.54.0",
+    "tag_name": "v0.54.3",
     "prerelease": false,
-    "published_at": "2024-07-08T13:54:24Z",
+    "published_at": "2024-07-31T12:58:35Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.54.0/fzf-0.54.0-linux_amd64.tar.gz",
+        "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.54.3/fzf-0.54.3-linux_amd64.tar.gz",
         "content_type": "application/octet-stream",
-        "created_at": "2024-07-08T13:54:21Z",
-        "download_count": 2639,
-        "id": 178357073,
-        "name": "fzf-0.54.0-linux_amd64.tar.gz",
-        "node_id": "RA_kwDOANKv9s4KoYNR",
-        "size": 1548853,
+        "created_at": "2024-07-31T12:58:28Z",
+        "download_count": 23135,
+        "id": 182974634,
+        "name": "fzf-0.54.3-linux_amd64.tar.gz",
+        "node_id": "RA_kwDOANKv9s4K5_iq",
+        "size": 1551914,
         "state": "uploaded",
-        "updated_at": "2024-07-08T13:54:23Z"
+        "updated_at": "2024-07-31T12:58:30Z"
       }
     ],
     "hold_update": false
@@ -1344,21 +1344,21 @@
   "https://github.com/kubernetes/kops#kops": {
     "url": "https://github.com/kubernetes/kops",
     "name": "kops",
-    "tag_name": "v1.29.0",
+    "tag_name": "v1.29.2",
     "prerelease": false,
-    "published_at": "2024-05-16T10:44:41Z",
+    "published_at": "2024-07-24T11:26:09Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/kubernetes/kops/releases/download/v1.29.0/kops-linux-amd64",
+        "browser_download_url": "https://github.com/kubernetes/kops/releases/download/v1.29.2/kops-linux-amd64",
         "content_type": "application/octet-stream",
-        "created_at": "2024-05-12T22:13:32Z",
-        "download_count": 116888,
-        "id": 167518280,
+        "created_at": "2024-07-24T11:21:10Z",
+        "download_count": 28585,
+        "id": 181538976,
         "name": "kops-linux-amd64",
-        "node_id": "RA_kwDOA7NwS84J_CBI",
-        "size": 193877436,
+        "node_id": "RA_kwDOA7NwS84K0hCg",
+        "size": 193893216,
         "state": "uploaded",
-        "updated_at": "2024-05-12T22:13:36Z"
+        "updated_at": "2024-07-24T11:21:14Z"
       }
     ],
     "hold_update": false
@@ -1388,21 +1388,21 @@
   "https://github.com/hetznercloud/cli#hzcloud": {
     "url": "https://github.com/hetznercloud/cli",
     "name": "cli",
-    "tag_name": "v1.44.2",
+    "tag_name": "v1.46.0",
     "prerelease": false,
-    "published_at": "2024-07-03T15:00:53Z",
+    "published_at": "2024-07-25T11:26:45Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/hetznercloud/cli/releases/download/v1.44.2/hcloud-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/hetznercloud/cli/releases/download/v1.46.0/hcloud-linux-amd64.tar.gz",
         "content_type": "application/gzip",
-        "created_at": "2024-07-04T06:25:47Z",
-        "download_count": 602,
-        "id": 177614111,
+        "created_at": "2024-07-25T11:31:44Z",
+        "download_count": 850,
+        "id": 181766179,
         "name": "hcloud-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOBrSvNs4Kli0f",
-        "size": 5358027,
+        "node_id": "RA_kwDOBrSvNs4K1Ygj",
+        "size": 5357584,
         "state": "uploaded",
-        "updated_at": "2024-07-04T06:25:48Z"
+        "updated_at": "2024-07-25T11:31:45Z"
       }
     ],
     "hold_update": false
@@ -1476,21 +1476,21 @@
   "https://github.com/iann0036/iamlive#iamlive": {
     "url": "https://github.com/iann0036/iamlive",
     "name": "iamlive",
-    "tag_name": "v1.1.9",
+    "tag_name": "v1.1.10",
     "prerelease": false,
-    "published_at": "2024-06-30T05:09:07Z",
+    "published_at": "2024-07-17T04:28:31Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/iann0036/iamlive/releases/download/v1.1.9/iamlive-v1.1.9-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/iann0036/iamlive/releases/download/v1.1.10/iamlive-v1.1.10-linux-amd64.tar.gz",
         "content_type": "application/octet-stream",
-        "created_at": "2024-06-30T05:08:54Z",
-        "download_count": 300,
-        "id": 176767892,
-        "name": "iamlive-v1.1.9-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOFAXR-c4KiUOU",
-        "size": 6007906,
+        "created_at": "2024-07-17T04:28:22Z",
+        "download_count": 330,
+        "id": 180057832,
+        "name": "iamlive-v1.1.10-linux-amd64.tar.gz",
+        "node_id": "RA_kwDOFAXR-c4Ku3bo",
+        "size": 6008092,
         "state": "uploaded",
-        "updated_at": "2024-06-30T05:08:57Z"
+        "updated_at": "2024-07-17T04:28:25Z"
       }
     ],
     "hold_update": false
@@ -1586,21 +1586,21 @@
   "https://github.com/bronze1man/yaml2json#yaml2json": {
     "url": "https://github.com/bronze1man/yaml2json",
     "name": "yaml2json",
-    "tag_name": "v1.3",
+    "tag_name": "v1.3.3",
     "prerelease": false,
-    "published_at": "2018-11-06T01:35:20Z",
+    "published_at": "2024-07-16T01:44:57Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3/yaml2json_linux_amd64",
+        "browser_download_url": "https://github.com/bronze1man/yaml2json/releases/download/v1.3.3/yaml2json_linux_amd64",
         "content_type": "application/octet-stream",
-        "created_at": "2018-11-06T01:34:07Z",
-        "download_count": 1061509,
-        "id": 9569906,
+        "created_at": "2024-07-16T01:44:05Z",
+        "download_count": 1815,
+        "id": 179805177,
         "name": "yaml2json_linux_amd64",
-        "node_id": "MDEyOlJlbGVhc2VBc3NldDk1Njk5MDY=",
-        "size": 2217216,
+        "node_id": "RA_kwDOANtcRc4Kt5v5",
+        "size": 2072576,
         "state": "uploaded",
-        "updated_at": "2018-11-06T01:34:25Z"
+        "updated_at": "2024-07-16T01:44:06Z"
       }
     ],
     "hold_update": false
@@ -1608,21 +1608,21 @@
   "https://github.com/surrealdb/surrealdb#surrealdb": {
     "url": "https://github.com/surrealdb/surrealdb",
     "name": "surrealdb",
-    "tag_name": "v1.5.3",
+    "tag_name": "v1.5.4",
     "prerelease": false,
-    "published_at": "2024-06-14T14:34:59Z",
+    "published_at": "2024-07-10T17:32:08Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.3/surreal-v1.5.3.linux-amd64.tgz",
+        "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v1.5.4/surreal-v1.5.4.linux-amd64.tgz",
         "content_type": "application/octet-stream",
-        "created_at": "2024-06-14T14:35:00Z",
-        "download_count": 193,
-        "id": 173803783,
-        "name": "surreal-v1.5.3.linux-amd64.tgz",
-        "node_id": "RA_kwDOGgbgb84KXAkH",
-        "size": 17071721,
+        "created_at": "2024-07-10T17:32:08Z",
+        "download_count": 314,
+        "id": 178814575,
+        "name": "surreal-v1.5.4.linux-amd64.tgz",
+        "node_id": "RA_kwDOGgbgb84KqH5v",
+        "size": 17083827,
         "state": "uploaded",
-        "updated_at": "2024-06-14T14:35:01Z"
+        "updated_at": "2024-07-10T17:32:09Z"
       }
     ],
     "hold_update": false
@@ -1652,21 +1652,21 @@
   "https://github.com/terrastruct/d2#d2": {
     "url": "https://github.com/terrastruct/d2",
     "name": "d2",
-    "tag_name": "v0.6.5",
+    "tag_name": "v0.6.6",
     "prerelease": false,
-    "published_at": "2024-04-18T05:18:40Z",
+    "published_at": "2024-08-02T04:02:22Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/terrastruct/d2/releases/download/v0.6.5/d2-v0.6.5-linux-amd64.tar.gz",
+        "browser_download_url": "https://github.com/terrastruct/d2/releases/download/v0.6.6/d2-v0.6.6-linux-amd64.tar.gz",
         "content_type": "application/x-gtar",
-        "created_at": "2024-04-18T05:16:07Z",
-        "download_count": 16805,
-        "id": 162789858,
-        "name": "d2-v0.6.5-linux-amd64.tar.gz",
-        "node_id": "RA_kwDOH8ZG1s4Js_ni",
-        "size": 19760650,
+        "created_at": "2024-08-02T03:51:36Z",
+        "download_count": 1286,
+        "id": 183373156,
+        "name": "d2-v0.6.6-linux-amd64.tar.gz",
+        "node_id": "RA_kwDOH8ZG1s4K7g1k",
+        "size": 19771192,
         "state": "uploaded",
-        "updated_at": "2024-04-18T05:16:52Z"
+        "updated_at": "2024-08-02T03:59:05Z"
       }
     ],
     "hold_update": false
