@@ -8,7 +8,7 @@ source ~/.my-config/rcfiles/vars.sh
 
 if [[ -e "/etc/os-release" ]];then
 
-  _distro_name=$(cat /etc/os-release | grep "ID_LIKE" | cut -d "=" -f 2)
+  _distro_name=$(cat /etc/os-release | grep -E "^ID=" | cut -d "=" -f 2)
   case $_distro_name in
 
     "arch")
@@ -18,8 +18,10 @@ if [[ -e "/etc/os-release" ]];then
     "debian" | "ubuntu")
       source ~/.my-config/rcfiles/distro_aliases/debian.sh
       ;;
+    "fedora")
+      source ~/.my-config/rcfiles/distro_aliases/fedora.sh
+      ;;
     *)
-      
       ;;
   esac
 

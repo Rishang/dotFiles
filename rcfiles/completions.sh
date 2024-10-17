@@ -38,6 +38,7 @@ if _which aws; then complete -C `which aws_completer` aws ;fi
 if _which gf; then complete -W "$(gf -list)" gf ;fi
 if _which terraform; then complete -o nospace -C `which terraform` terraform ;fi
 if _which kubectl; then source <(kubectl completion $THIS_SHELL) ;fi
+if _which docker; then source <(docker completion $THIS_SHELL) ;fi
 if _which helm; then source <(helm completion $THIS_SHELL) ;fi
 if [[ $THIS_SHELL == "bash" ]] && _which glab; then source <(glab completion); fi
 
