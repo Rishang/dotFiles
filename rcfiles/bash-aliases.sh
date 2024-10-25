@@ -45,7 +45,7 @@ alias myip="curl https://ipconfig.io"
 alias open-git-url='git remote -v | grep -ioE "https[^ ]+" | sort -u | xargs xdg-open'
 
 
-alias fhistory="cat ~/.zsh_history | cut -d ';' -f2- | fzf -e "
+alias fhistory="cat ~/.zsh_history | cut -d ';' -f2- | sort -u | fzf -e "
 
 alias k="kubectl"
 
