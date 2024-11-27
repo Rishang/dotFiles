@@ -12,3 +12,15 @@ git clone https://github.com/Rishang/dotFiles.git ~/.my-config
 # include this to `.bashrc` or `.zshrc`
 source ~/.my-config/rcfiles/main.sh
 ```
+
+```
+# recommented for zsh
+plugins=(
+	zsh-autosuggestions
+	dotenv
+	extract
+	tmux
+	web-search
+	yum
+)
+```
