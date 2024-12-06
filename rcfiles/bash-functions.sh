@@ -208,6 +208,11 @@ function temp-dir() {
     mkdir -p $tmp_dir && ([[ `which code` ]] && code $tmp_dir)
 }
 
+function cursor {
+    $HOME/Applications/cursor-*.AppImage "$@" >/dev/null 2>&1 &!
+	sleep 2
+}
+
 # function kubens {
 #     ns=`kubectl get ns -ojson | jq -r '.items[].metadata.name' | fzf -e --ansi --prompt="Select namespace: "`
 #     kubectl config set-context --current --namespace $ns
