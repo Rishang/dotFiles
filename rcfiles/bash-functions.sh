@@ -67,17 +67,17 @@ function __update_all_pip() {
 
 # open multiple chrome tabs
 function open-multi-tabs() (
-
+    browser=$(which x-www-browser 2> /dev/null || which xdg-open 2> /dev/null)
     function _browser_open() {
 
         if [[ `echo $1 | grep -E "^https?://"` ]];then
             echo $1
-            x-www-browser $1 $2 &> /dev/null
+            $browser $1 $2 &> /dev/null
         elif ! [[ `echo $1 | grep -E ".+"` ]]; then
         	sleep 0
         else
         	echo "$*"
-        	x-www-browser "https://www.google.com/search?q=$*" &> /dev/null
+        	$browser "https://www.google.com/search?q=$*" &> /dev/null
         fi
     }
 
@@ -87,13 +87,13 @@ function open-multi-tabs() (
         vim $tab_path && touch $tab_path
         if [[ `du $tab_path | grep -oE "^0"` ]];then exit 0;fi
 
-        x-www-browser &> /dev/null &
+        $browser &> /dev/null &
         while read -r query;do
             _browser_open $query
         done < $tab_path
 
     else
-    	x-www-browser &> /dev/null &
+    	$browser &> /dev/null &
         while read -r query;do
             _browser_open $query
         done
