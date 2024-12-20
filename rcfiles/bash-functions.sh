@@ -210,7 +210,6 @@ function temp-dir() {
 
 function cursor {
     $HOME/Applications/cursor-*.AppImage "$@" >/dev/null 2>&1 &!
-	sleep 2
 }
 
 # function kubens {
