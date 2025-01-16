@@ -57,6 +57,8 @@ alias _tunnel_cloudflare="echo 'curl -sS https://gitlab.com/-/snippets/2552034/r
 
 alias screenshot2text='ss_name="/tmp/screenshot_$RANDOM.png" && sleep 2 && flameshot gui -r > $ss_name && tesseract "$ss_name" stdout > "$ss_name.txt" && gnome-text-editor "$ss_name.txt" &'
 
+alias _flameshot="(ps aux | grep flameshot | grep SNl > /dev/null ) || (flameshot $@ >/dev/null 2>&1 &!)"
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
