@@ -203,7 +203,11 @@ function temp-dir() {
     tmp_dir=/tmp/`echo "$name" | cut -d '/' -f5 | cut -d '.' -f1`
     if [[ -d $tmp_dir ]];then
         echo "Directory already exists: $tmp_dir"
-        tmp_dir="$tmp_dir-`pwgen -n 2 | cat`"
+        echo "Do you want to open it? (y/n):"
+        read ans
+        if [[ $ans != "y" || $ans != "Y" ]];then
+            tmp_dir="$tmp_dir-`pwgen -n 2 | cat`"
+        fi
     fi
     mkdir -p $tmp_dir && ([[ `which code` ]] && code $tmp_dir)
 }
