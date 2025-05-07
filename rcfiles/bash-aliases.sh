@@ -13,7 +13,8 @@ alias clr='clear'
 alias ida='sudo /opt/idafree-*/./ida64'
 
 # colorful cat
-alias bcat="bat"
+alias bat="bat -p"
+
 
 # terminal color for gnome-terminal
 alias term-color='xdg-open "https://gogh-co.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
@@ -52,7 +53,7 @@ alias k="kubectl"
 # due to wayland crap
 alias screen2txt="sleep 1;bash $HOME/.local/opt/screenshot2text/start.sh"
 
-
+# tunnel cloudflare
 alias _tunnel_cloudflare="echo 'curl -sS https://gitlab.com/-/snippets/2552034/raw/main/cloudflare_ssh.sh | bash'"
 
 alias screenshot2text='ss_name="/tmp/screenshot_$RANDOM.png" && sleep 2 && flameshot gui -r > $ss_name && tesseract "$ss_name" stdout > "$ss_name.txt" && gnome-text-editor "$ss_name.txt" &'

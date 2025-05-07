@@ -212,8 +212,9 @@ function temp-dir() {
     mkdir -p $tmp_dir && ([[ `which code` ]] && code $tmp_dir)
 }
 
+# shellcheck disable=SC1073
 function cursor {
-    $HOME/Applications/cursor-*.AppImage "$@" >/dev/null 2>&1 &!
+    $HOME/Applications/Cursor-*.AppImage "$@" >/dev/null 2>&1 &!
 }
 
 # function kubens {
