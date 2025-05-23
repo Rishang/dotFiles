@@ -725,28 +725,6 @@
     ],
     "hold_update": false
   },
-  "https://github.com/FairwindsOps/goldilocks#goldilocks": {
-    "url": "https://github.com/FairwindsOps/goldilocks",
-    "name": "goldilocks",
-    "tag_name": "v4.13.4",
-    "prerelease": false,
-    "published_at": "2025-02-19T14:23:24Z",
-    "assets": [
-      {
-        "browser_download_url": "https://github.com/FairwindsOps/goldilocks/releases/download/v4.13.4/goldilocks_4.13.4_linux_amd64.tar.gz",
-        "content_type": "application/octet-stream",
-        "created_at": "2025-02-19T14:23:23Z",
-        "download_count": 5,
-        "id": 230648370,
-        "name": "goldilocks_4.13.4_linux_amd64.tar.gz",
-        "node_id": "RA_kwDOCvAlSc4Nv2oy",
-        "size": 14396212,
-        "state": "uploaded",
-        "updated_at": "2025-02-19T14:23:24Z"
-      }
-    ],
-    "hold_update": false
-  },
   "https://github.com/itchyny/json2yaml#json2yaml": {
     "url": "https://github.com/itchyny/json2yaml",
     "name": "json2yaml",
