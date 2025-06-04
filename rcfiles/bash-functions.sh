@@ -214,7 +214,7 @@ function temp-dir() {
 
 # shellcheck disable=SC1073
 function cursor {
-    $HOME/Applications/Cursor-*.AppImage "$@" >/dev/null 2>&1 &!
+    $HOME/Applications/Cursor-*.AppImage --no-sandbox "$@" >/dev/null 2>&1 &!
 }
 
 # function kubens {
