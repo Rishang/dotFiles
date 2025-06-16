@@ -1498,21 +1498,21 @@
   "https://github.com/surrealdb/surrealdb#surrealdb": {
     "url": "https://github.com/surrealdb/surrealdb",
     "name": "surrealdb",
-    "tag_name": "v2.2.2",
+    "tag_name": "v2.3.3",
     "prerelease": false,
-    "published_at": "2025-04-10T12:19:08Z",
+    "published_at": "2025-05-21T14:18:22Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.2.2/surreal-v2.2.2.linux-amd64.tgz",
+        "browser_download_url": "https://github.com/surrealdb/surrealdb/releases/download/v2.3.3/surreal-v2.3.3.linux-amd64.tgz",
         "content_type": "application/octet-stream",
-        "created_at": "2025-04-10T12:19:08Z",
-        "download_count": 0,
-        "id": 245204187,
-        "name": "surreal-v2.2.2.linux-amd64.tgz",
-        "node_id": "RA_kwDOGgbgb84OnYTb",
-        "size": 24216326,
+        "created_at": "2025-05-21T14:18:23Z",
+        "download_count": 65,
+        "id": 256716645,
+        "name": "surreal-v2.3.3.linux-amd64.tgz",
+        "node_id": "RA_kwDOGgbgb84PTS9l",
+        "size": 24944358,
         "state": "uploaded",
-        "updated_at": "2025-04-10T12:19:10Z"
+        "updated_at": "2025-05-21T14:18:24Z"
       }
     ],
     "hold_update": false
@@ -1850,21 +1850,21 @@
   "https://github.com/pnpm/pnpm#pnpm": {
     "url": "https://github.com/pnpm/pnpm",
     "name": "pnpm",
-    "tag_name": "v10.11.0",
+    "tag_name": "v10.12.1",
     "prerelease": false,
-    "published_at": "2025-05-13T14:24:58Z",
+    "published_at": "2025-06-08T14:25:13Z",
     "assets": [
       {
-        "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v10.11.0/pnpm-linux-x64",
+        "browser_download_url": "https://github.com/pnpm/pnpm/releases/download/v10.12.1/pnpm-linux-x64",
         "content_type": "application/octet-stream",
-        "created_at": "2025-05-13T14:23:48Z",
-        "download_count": 45987,
-        "id": 254277879,
+        "created_at": "2025-06-08T14:21:43Z",
+        "download_count": 31299,
+        "id": 262048788,
         "name": "pnpm-linux-x64",
-        "node_id": "RA_kwDOAwORNs4PJ_j3",
-        "size": 67463860,
+        "node_id": "RA_kwDOAwORNs4PnowU",
+        "size": 67600668,
         "state": "uploaded",
-        "updated_at": "2025-05-13T14:23:51Z"
+        "updated_at": "2025-06-08T14:21:46Z"
       }
     ],
     "hold_update": false
@@ -1887,6 +1887,28 @@
         "size": 193194140,
         "state": "uploaded",
         "updated_at": "2025-05-21T21:48:57Z"
+      }
+    ],
+    "hold_update": false
+  },
+  "https://github.com/bcicen/ctop#ctop": {
+    "url": "https://github.com/bcicen/ctop",
+    "name": "ctop",
+    "tag_name": "v0.7.7",
+    "prerelease": false,
+    "published_at": "2022-03-22T12:10:17Z",
+    "assets": [
+      {
+        "browser_download_url": "https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7-linux-amd64",
+        "content_type": "application/octet-stream",
+        "created_at": "2022-03-22T12:03:21Z",
+        "download_count": 1221418,
+        "id": 60241476,
+        "name": "ctop-0.7.7-linux-amd64",
+        "node_id": "RA_kwDOBJ1Tcc4DlzZE",
+        "size": 13606047,
+        "state": "uploaded",
+        "updated_at": "2022-03-22T12:03:58Z"
       }
     ],
     "hold_update": false
