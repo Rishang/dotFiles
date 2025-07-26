@@ -60,6 +60,8 @@ alias screenshot2text='ss_name="/tmp/screenshot_$RANDOM.png" && sleep 2 && flame
 
 alias _flameshot="(ps aux | grep flameshot | grep SNl > /dev/null ) || (flameshot $@ >/dev/null 2>&1 &!)"
 
+alias dig="dig +short"
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
