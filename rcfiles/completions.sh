@@ -34,7 +34,7 @@ if _which brew;then
 fi
 
 if _which zoxide; then eval "$(zoxide init $THIS_SHELL)" ;fi
-if _which aws; then complete -C `which aws_completer` aws ;fi
+if _which aws; then complete -C $(command -v aws_completer || echo "/usr/local/aws/bin/aws_completer") aws ;fi
 if _which gf; then complete -W "$(gf -list)" gf ;fi
 if _which terraform; then complete -o nospace -C `which terraform` terraform ;fi
 if _which kubectl; then source <(kubectl completion $THIS_SHELL) ;fi
