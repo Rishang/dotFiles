@@ -15,7 +15,6 @@ alias ida='sudo /opt/idafree-*/./ida64'
 # colorful cat
 alias bat="bat -p"
 
-
 # terminal color for gnome-terminal
 alias term-color='xdg-open "https://gogh-co.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
 
@@ -28,9 +27,6 @@ alias xdm="java -jar ~/xdman.jar"
 
 # doker rmi dangling
 alias dangling-rmi-docker='docker rmi `docker images --filter dangling=true -q`'
-
-# batcat view
-alias batview="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
 # sys monitor
 alias btop="bpytop"
@@ -63,6 +59,8 @@ alias _flameshot="(ps aux | grep flameshot | grep SNl > /dev/null ) || (flamesho
 alias dig="dig +short"
 
 alias zjs='zellij -s $(($(zellij list-sessions 2>/dev/null | wc -l) + 1))'
+
+alias fcat="fzf -e --preview 'bat --color=always {}' --preview-window '~3'"
 
 # cd
 alias ..="cd .."

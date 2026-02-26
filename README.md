@@ -36,15 +36,15 @@ Add to `~/.bashrc` or `~/.zshrc`:
 - `..`, `...`, `....` :  cd up
 - `clr` :  clear
 - `grep` :  with color
-- `bat`, `batview` :  bat + fzf preview
 - `btop` :  bpytop
 - `k`, `kc` :  kubectl
 - `myip`, `dig` :  short output
-- `open-git-url`, `fhistory` :  git URL in browser, zsh history + fzf
-- `dangling-rmi-docker` :  remove dangling docker images
+- `fcat` :  fzf + bat preview
+- `open-git-url`: Open git URL in default browser
+- `fhistory`: zsh history + fzf
+- `dangling-rmi-docker`: remove dangling docker images
+- `temp-clone`, `temp-dir`, `temp-notebook`: temp dirs and jupyter
 - Distro-specific: `update`, `upgrade`, `autoremove` (Arch/Debian/Ubuntu/Fedora)
-
-
 
 ## Variables
 
