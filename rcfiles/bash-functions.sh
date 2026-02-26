@@ -213,9 +213,6 @@ function temp-dir() {
 }
 
 # shellcheck disable=SC1073
-function cursor {
-    $HOME/Applications/Cursor-*.AppImage --no-sandbox "$@" >/dev/null 2>&1 &!
-}
 
 # function kubens {
 #     ns=`kubectl get ns -ojson | jq -r '.items[].metadata.name' | fzf -e --ansi --prompt="Select namespace: "`

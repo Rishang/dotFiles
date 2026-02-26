@@ -62,6 +62,8 @@ alias _flameshot="(ps aux | grep flameshot | grep SNl > /dev/null ) || (flamesho
 
 alias dig="dig +short"
 
+alias zjs='zellij -s $(($(zellij list-sessions 2>/dev/null | wc -l) + 1))'
+
 # cd
 alias ..="cd .."
 alias ...="cd ../.."
