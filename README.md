@@ -59,7 +59,6 @@ Add to `~/.bashrc` or `~/.zshrc`:
 
 ## Functions
 
-- `__upgrade` :  brew / snap / flatpak
 - `__update_docker_pull`, `__update_all_git`, `__update_all_pip`, `__update_awscli`
 - `getup` :  tmux + takeBreak (start/stop)
 - `open-multi-tabs` :  open URLs or search from stdin/file
