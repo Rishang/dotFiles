@@ -60,7 +60,7 @@ alias dig="dig +short"
 
 alias zjs='zellij -s $(($(zellij list-sessions 2>/dev/null | wc -l) + 1))'
 
-alias fcat="fzf -e --preview 'bat --color=always {}' --preview-window '~3'"
+alias fcat="fzf -e --no-sort --preview 'bat --color=always {}' --preview-window '~3'"
 
 # cd
 alias ..="cd .."
