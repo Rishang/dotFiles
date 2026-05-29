@@ -39,7 +39,7 @@ alias filebrowser="filebrowser --database ~/.config/filebrowser.db"
 
 alias myip="curl https://ipconfig.io"
 
-alias open-git-url='git remote -v | grep -ioE "https[^ ]+" | sort -u | xargs xdg-open'
+alias open-git-url='git remote -v | grep -ioE "https[^ ]+" | sort -u | xargs xdg-open > /dev/null 2>&1'
 
 
 alias fhistory="cat ~/.zsh_history | cut -d ';' -f2- | sort -u | fzf -e "
