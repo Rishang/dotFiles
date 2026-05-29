@@ -13,7 +13,7 @@ alias clr='clear'
 alias ida='sudo /opt/idafree-*/./ida64'
 
 # colorful cat
-alias bat="bat -p"
+alias bat="bat -p --paging=never"
 
 # terminal color for gnome-terminal
 alias term-color='xdg-open "https://gogh-co.github.io/Gogh/" & bash -c "$(curl -sLo- https://git.io/vQgMr)"'
